@@ -1,0 +1,38 @@
+{
+  "updated": "2026-02-26",
+  "papers": [
+    {
+      "pmid": "38000000",
+      "doi": "10.1016/j.cmet.2025.01.001",
+      "title": "FGF21 acts in the hypothalamus to coordinate protein restriction responses and food choice",
+      "authors": ["Morrison CD", "Hill CM", "Burke SJ"],
+      "journal": "Cell Metabolism",
+      "published": "2025-01-15",
+      "abstract": "Fibroblast growth factor 21 (FGF21) is an endocrine signal produced by the liver in response to dietary protein restriction. Here we demonstrate that FGF21 acts in the hypothalamus to coordinate downstream changes in food choice, macronutrient preference, and metabolic rate. These findings establish FGF21 as a central mediator of protein-restriction-induced behavioral adaptation.",
+      "relevance": "high",
+      "tags": ["FGF21", "hypothalamus", "protein restriction", "food choice"]
+    },
+    {
+      "pmid": "38000001",
+      "doi": "10.1038/s42255-025-01010-1",
+      "title": "Beta-Klotho expression in the ventral tegmental area regulates reward-driven feeding",
+      "authors": ["Chen L", "Wang X", "Potts CM", "Bhatt DL"],
+      "journal": "Nature Metabolism",
+      "published": "2025-02-01",
+      "abstract": "Beta-Klotho (KLB) serves as the obligate co-receptor for FGF21 in the brain. Using conditional knockout models, we show that KLB expression in dopaminergic neurons of the VTA is required for FGF21-driven suppression of sucrose preference. These data reveal a gut-brain-reward circuit linking liver-derived endocrine signals to hedonic feeding behavior.",
+      "relevance": "high",
+      "tags": ["beta-Klotho", "FGF21", "VTA", "reward", "feeding behavior"]
+    },
+    {
+      "pmid": "38000002",
+      "doi": "10.2337/db25-0123",
+      "title": "GLP-1 receptor agonists and FGF21 have additive effects on weight loss in obese rodents",
+      "authors": ["Samms RJ", "Tschop MH", "Finan B"],
+      "journal": "Diabetes",
+      "published": "2025-02-10",
+      "abstract": "Co-administration of a GLP-1 receptor agonist and recombinant FGF21 produced additive reductions in body weight and adiposity in diet-induced obese mice, without evidence of adverse effects. These data support the potential for combination therapies targeting distinct metabolic pathways for greater efficacy in obesity treatment.",
+      "relevance": "medium",
+      "tags": ["GLP-1", "FGF21", "obesity", "combination therapy"]
+    }
+  ]
+}
