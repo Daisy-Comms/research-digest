@@ -233,6 +233,111 @@ main {
   text-decoration: underline;
 }
 
+/* ── Checkbox ── */
+.checkbox-wrap {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-right: 0.25rem;
+}
+
+.checkbox-wrap input[type="checkbox"] {
+  display: none;
+}
+
+.checkmark {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.checkbox-wrap:hover .checkmark {
+  border-color: var(--accent);
+}
+
+.paper-checkbox:checked + .checkmark {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.paper-checkbox:checked + .checkmark::after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 9px;
+  border: 2px solid #fff;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.paper-card.selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-light), var(--shadow);
+}
+
+/* ── Download Bar ── */
+.download-bar {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--text);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.65rem 0.75rem 0.65rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  font-size: 0.85rem;
+  z-index: 100;
+  white-space: nowrap;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.download-bar.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(8px);
+}
+
+.bar-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.bar-btn {
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.bar-btn:hover { opacity: 0.85; }
+
+.bar-btn.secondary {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+}
+
+.bar-btn.primary {
+  background: #fff;
+  color: var(--text);
+}
+
 /* ── Empty state ── */
 .empty {
   text-align: center;
