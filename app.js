@@ -69,13 +69,15 @@ function paperCard(p) {
   const authors = Array.isArray(p.authors) ? p.authors.join(', ') : (p.authors || '');
   const shortAuthors = authors.length > 80 ? authors.slice(0, 80) + '…' : authors;
   const tags = (p.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('');
-  const pmidLink = p.pmid
-    ? `<a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank" rel="noopener">PMID ${p.pmid} ↗</a>`
-    : '';
-  const titleHtml = p.doi
-    ? `<a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">${esc(p.title)}</a>`
+  const pmidLink = p.doi
+    ? `<a class="pmid-link" href="https://doi.org/${p.doi}" target="_blank" rel="noopener">DOI ↗</a>`
     : (p.pmid
-      ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank" rel="noopener">${esc(p.title)}</a>`
+      ? `<a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank" rel="noopener">PMID ${p.pmid} ↗</a>`
+      : '');
+  const titleHtml = p.pmid
+    ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank" rel="noopener">${esc(p.title)}</a>`
+    : (p.doi
+      ? `<a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">${esc(p.title)}</a>`
       : esc(p.title));
 
   const dateStr = p.published ? new Date(p.published).toLocaleDateString('en-US', {
