@@ -1,38 +1,1091 @@
 {
-  "updated": "2026-02-26",
+  "updated": "2026-03-04",
   "papers": [
+    {
+      "id": "10-1016_j-cmet-2026-01-006",
+      "title": "Potential roles of unmeasured spectra and light’s frequency-dependent neural modulation in daylight-mediated metabolic improvements",
+      "authors": [
+        "Chongyun Wu, Luodan Yang"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-02-12",
+      "doi": "10.1016/j.cmet.2026.01.006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.006",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.006",
+      "abstract": "Wu et al. highlight unmeasured spectra (e.g., NIR) and light’s frequency-dependent neural modulation as key factors underlying daylight’s metabolic benefits, guiding future lighting and metabolic disease research.",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "nts",
+        "metabolic"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2025-12-021",
+      "title": "NAMing the challenges and opportunities of new approach methodologies for studying cardiovascular metabolism",
+      "authors": [
+        "Arianne Caudal, Joseph C. Wu"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-02-11",
+      "doi": "10.1016/j.cmet.2025.12.021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2025.12.021",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2025.12.021",
+      "abstract": "This letter evaluates the use of new approach methodologies (NAMs), such as human-based in vitro and in silico platforms, to reduce, refine, or replace reliance on animal testing, and to enhance our understanding of cardiovascular metabolism.",
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "metabolism"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-01-009",
+      "title": "New approach methodologies: Don’t throw the baby out with the bathwater",
+      "authors": [
+        "Zoltan Arany"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-02-11",
+      "doi": "10.1016/j.cmet.2026.01.009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.009",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.009",
+      "abstract": "The NIH has recently called for expanding use of new approach methodologies (NAMs) to reduce use of animals in research. Arany discusses the need not to forget the irreplaceable aspects of animal research and their fundamental importance to biomedical advancement.",
+      "relevance": "low",
+      "relevanceScore": 0,
+      "tags": [],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-02-004",
+      "title": "Neutrophil-mediated anti-tumoral effects of caloric restriction",
+      "authors": [
+        "Chin Sern Yiong, Melissa Shu Feng Ng"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.cmet.2026.02.004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.02.004",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.02.004",
+      "abstract": "Caloric restriction confers several benefits in cancer, but the underlying mechanisms are not understood. In this issue of Cell Metabolism, Gao et al. highlight a newly identified neutrophil-dependent pathway modulated by caloric restriction.",
+      "relevance": "low",
+      "relevanceScore": 0.2,
+      "tags": [
+        "caloric restriction",
+        "metabolism"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-02-006",
+      "title": "Why timing matters in MASLD: Late-day metabolic control",
+      "authors": [
+        "Amalia Gastaldelli"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.cmet.2026.02.006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.02.006",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.02.006",
+      "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is traditionally viewed as a static consequence of chronic caloric excess and insulin resistance. In the work previewed here, MASLD instead emerges as a disorder of time-of-day-dependent metabolic vulnerability, characterized by reduced insulin availability and worsening multisystem insulin resistance in the evening compared with the morning.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "insulin",
+        "insulin resistance",
+        "metabolic"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-02-003",
+      "title": "Regulatory T cells thrive in ammonia-rich tumors",
+      "authors": [
+        "Chenxian Ye, Greg M. Delgoffe"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.cmet.2026.02.003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.02.003",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.02.003",
+      "abstract": "In a recent issue of Cell, Gu et al. find that regulatory T (Treg) cells metabolize tumor-derived ammonia via the urea cycle and spermine synthesis, promoting immunosuppression through PPARγ-dependent oxidative phosphorylation. Inhibition of tumor glutamine metabolism reduces ammonia levels and overcomes Treg cell-mediated resistance to anti-PD-1 therapy.",
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "metabolism"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-02-002",
+      "title": "The dual role of the pentose phosphate pathway in homeostasis and regeneration",
+      "authors": [
+        "Ziyu Li, Jiaqi Xu, Yi Li"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.cmet.2026.02.002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.02.002",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.02.002",
+      "abstract": "In a recent issue of Cell, Song et al. show that the pentose phosphate pathway (PPP) plays dual roles as a metabolic checkpoint. Spatial enrichment of PPP in peripheral nerves maintains mechanosensation homeostasis via NADPH-dependent redox balance, shifting to promote axon regeneration after injury by providing ribose-5-phosphate for RNA synthesis.",
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "metabolic"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-01-013",
+      "title": "Overcoming impasse in nutrition science",
+      "authors": [
+        "David S. Ludwig"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.cmet.2026.01.013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.013",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.013",
+      "abstract": "Paradigm clash plays a crucial role in science by strengthening existing conceptual models or facilitating adoption of more useful ones. Here, I argue that this salutary process tends to stagnate in the field of nutrition to the detriment of both scientific advancement and public health, and I propose potential solutions.",
+      "relevance": "low",
+      "relevanceScore": 0,
+      "tags": [],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-01-018",
+      "title": "Suggested improvements to clarity of glucagon-like peptide-1 receptor agonist publications",
+      "authors": [
+        "Steven B. Heymsfield, Christian Rodriguez, Shengping Yang"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.cmet.2026.01.018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.018",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.018",
+      "abstract": "An abundance of publications is drawing attention to the decrements in skeletal muscle mass accompanying weight loss mediated by glucagon-like peptide-1 receptor agonists. Herein we advance three suggestions for improving the clarity of these reports that will lead to their improved interpretation by the scientific community.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "nts"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-01-020",
+      "title": "Modeling lipid homeostasis using stable isotope tracing and flux analysis",
+      "authors": [
+        "Karl Wessendorf-Rodriguez, Maureen L. Ruchhoeft, Christopher W. Murray, Yale Huang, Ethan L. Ashley, Hector M. Galvez, Grace H. McGregor, Shrikaar Kambhampati, Reuben J. Shaw, Christian M. Metallo"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-02-20",
+      "doi": "10.1016/j.cmet.2026.01.020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.020",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.020",
+      "abstract": "Wessendorf-Rodriguez et al. develop a pipeline for applying metabolic flux analysis to quantify lipid homeostasis. Lipid-MFA elucidates differences in synthesis and salvage fluxes in precision-cut lung slices harboring tumors with common driver mutations of lung adenocarcinoma. Application of Lipid-MFA reveals distinct trafficking of ceramide species into the sphingolipidome.",
+      "relevance": "low",
+      "relevanceScore": 0.2,
+      "tags": [
+        "metabolic",
+        "lipid"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2025-12-004",
+      "title": "Human MASLD is a diurnal disease driven by multisystem insulin resistance and reduced insulin availability at night",
+      "authors": [
+        "Thomas Marjot, Kieran Smith, Felix Westcott, Sarah White, Elspeth Johnson, Nikola Srnic, Amy Barrett, Ellis Hall, Kate Gralton, Kaitlyn Dennis, Hamish Miller, Riccardo Pofi, Jeremy F.L. Cobbold, Rebecca Richmond, Fredrik Karpe, Ronnie Blazev, Matthew J. Watt, Benjamin L. Parker, Leanne Hodson, David W. Ray, Jeremy W. Tomlinson"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-01-12",
+      "doi": "10.1016/j.cmet.2025.12.004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2025.12.004",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2025.12.004",
+      "abstract": "By studying metabolism across day and night in human participants, Marjot et al. show that MASLD is a nighttime disease driven by poor insulin action and low insulin levels. These daily patterns persist after weight loss, suggesting that nighttime metabolic dysfunction is a key driver of liver fat accumulation.",
+      "relevance": "high",
+      "relevanceScore": 0.7,
+      "tags": [
+        "nts",
+        "insulin",
+        "insulin resistance",
+        "metabolism",
+        "metabolic"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-01-005",
+      "title": "Ketogenic diet alleviates septic lung injury via microbial gut-lung axis",
+      "authors": [
+        "Mingyuan Wei, Xinzhu Yi, Zhuandi Lin, Jingjing Cai, Shanze Chen, Fang Zhou, Hanqin Cai, Xinfeng Lu, Juan Tang, Yunfeng Shi, Liping Cui, Lei Yang, Xinru Jing, Yunong Zeng, Rong Wu, Tingting Shu, Yuanyuan Li, Fangyuan Yang, Yi He, Zhibin Zhao, Yuqiong Yang, Wenjiao Zhu, Qiong Jiang, Weiwei Zhang, Xiang Tan, Zhuo Ma, Xiaoying Fan, Wei Ma, Sheng Li, Wensheng Shu, Hong Wei, Zhiming Xiang, Jack A. Gilbert, Shenhai Gong, Zhang Wang"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-02-04",
+      "doi": "10.1016/j.cmet.2026.01.005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.005",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.005",
+      "abstract": "Wei et al. show that a ketogenic diet protects against sepsis-induced lung injury via a gut-lung axis. Specific gut lactobacilli convert dietary oleic acid into azelaic acid, which translocates to the lung, promotes efferocytosis via PPAR-γ-mediated expansion of MerTK+ macrophages, and correlates with improved clinical outcomes in patients.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "nts"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2025-11-008",
+      "title": "Metabolic stress sensing by epithelial RXRα links westernization of diet with Crohn’s disease",
+      "authors": [
+        "Moritz Meyer, Felix Grabherr, Christina Plattner, Michel V. Hadjihannas, Zhigang Rao, Valentin Marteau, Víctor Alonso López-Agudelo, Julian Schwärzler, Lisa Mayr, Almina Jukic, Laura Scheffauer, Luis Zundel, Barbara Enrich, Alexandra Pfister, Anna Simonini, Christoph Grander, Richard Hilbe, David Haschka, Andreas Zollner, Kathrin Vouk, Patrizia Moser, Michael W. Hess, Niloofar Nemati, Dietmar Rieder, Felix Sommer, Philip Rosenstiel, Qitao Ran, Richard S. Blumberg, Arthur Kaser, Florian Rieder, Andreas Koeberle, Christoph Becker, Raja Atreya, Anja A. Kühl, Britta Siegmund, Andre Franke, The IBDome Consortium, Herbert Tilg, Zlatko Trajanoski, Timon E. Adolph"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2025",
+      "date": "2025-12-08",
+      "doi": "10.1016/j.cmet.2025.11.008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2025.11.008",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2025.11.008",
+      "abstract": "The long-chain fatty acid receptor RXRα exhibits transcriptional activation in the intestinal epithelium of patients with Crohn’s disease (CD). Dietary polyunsaturated fatty acids induce intestinal epithelial RXRα activity in susceptible mice, which instigates chronic enteritis emanating from Paneth cells. This study reveals a cellular and molecular framework for fatty acid sensing in intestinal inflammation, which could be exploited to prevent or treat CD.",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "nts",
+        "metabolic",
+        "fatty acid"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-01-019",
+      "title": "Red blood cells serve as a primary glucose sink to improve glucose tolerance at altitude",
+      "authors": [
+        "Yolanda Martí-Mateos, Zohreh Safari, Shaun Bevers, Ayush D. Midha, Will R. Flanigan, Tej Joshi, Helen Huynh, Brandon R. Desousa, Skyler Y. Blume, Alan H. Baik, Stephen Rogers, Aaron V. Issaian, Allan Doctor, Angelo D’Alessandro, Isha H. Jain"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-02-19",
+      "doi": "10.1016/j.cmet.2026.01.019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.019",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.019",
+      "abstract": "Martí-Mateos et al. show that red blood cells explain improved glucose tolerance at high altitude. By manipulating red blood cell number, they determine that these cells are necessary and sufficient for hypoxic hypoglycemia. This highlights red blood cells as unappreciated glucose regulators and reveals novel strategies to treat diabetes.",
+      "relevance": "low",
+      "relevanceScore": 0.2,
+      "tags": [
+        "diabetes",
+        "glucose"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-01-012",
+      "title": "Deletion of Mfn2 in endothelial cells triggers a mitohormetic response that improves systemic metabolism and healthspan in mice",
+      "authors": [
+        "Iñigo Chivite, Erika Monelli, Margalida Munar-Gelabert, Alicia G. Gómez-Valadés, Abdiel Alvarado-Diaz, Macarena Pozo, Luis Varela, Sara Ramírez, Roberta Haddad-Tóvolli, Miriam Toledo, Júlia Fos-Domènech, Francisco Díaz-Castro, Iasim Tahiri, Pau García-Ramón, Mariana Ferreira, Chloé van Gelder, Anne Abot, Óscar Osorio-Conles, José Antonio Valer, Arnaud Obri, Maria Milà-Guasch, Jorge Alvarez Luis, Pilar Villacampa, Elena Eyre, Jordi Altirriba, Sabrina Genßler, Markus Haake, Christine Schuberth-Wagner, Xavier Remesar, Antonio Zorzano, Pablo M. Garcia-Rovés, Francesc Ventura, Josep Vidal, Claude Knauf, Rubén Nogueiras, Tamas L. Horvath, Katrien De Bock, Mariona Graupera, Marc Claret"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-02-17",
+      "doi": "10.1016/j.cmet.2026.01.012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.012",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.012",
+      "abstract": "Chivite et al. show that the genetic inactivation of the mitochondrial fusion protein MFN2 in the endothelium triggers a protective stress response that boosts fat burning, increases secretion of the hormone GDF15, and protects mice from obesity and age-related physical and cognitive decline.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "obesity",
+        "metabolism",
+        "healthspan"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2025-12-012",
+      "title": "Microbial metabolite FAD mobilizes adipocyte lipid remodeling to enhance cancer immunotherapy efficacy",
+      "authors": [
+        "Tianying Tong, Xiaowen Huang, Lingxi Li, Muni Hu, Xiaoqiang Zhu, Beiyao Zhu, Yanru Ma, Lijun Ning, Yi Jiang, Yue Zhang, Yilu Zhou, Zhenyu Wang, Jinmei Ding, Ying Zhao, Baoqin Xuan, Youwei Zhang, Xiuying Xiao, Jing-Yuan Fang, Jie Hong, Yan Yin, Fenglin Liu, Haoyan Chen"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-01-21",
+      "doi": "10.1016/j.cmet.2025.12.012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2025.12.012",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2025.12.012",
+      "abstract": "Tong et al. identify a microbiota-adipose tissue axis that modulates immune checkpoint blockade efficacy in obesity. Riboflavin-producing gut bacteria elevate mesenteric adipose FAD levels, activating FADS2-mediated polyunsaturated fatty acid synthesis that enhances CD8+ T cell cytotoxicity and antitumor responses. Dietary or microbial interventions targeting this axis may offer new strategies to optimize cancer immunotherapy outcomes.",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "obesity",
+        "adipose",
+        "lipid",
+        "fatty acid"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-01-008",
+      "title": "Semaglutide ameliorates osteoarthritis progression through a weight loss-independent metabolic restoration mechanism",
+      "authors": [
+        "Hongyu Qin, Jiamin Yu, Huan Yu, Chuqiao Zhou, Dongfeng Yuan, Ziling Wang, Zhenglin Zhu, Guizheng Wei, Peiyan Ou, Zhibin Li, Hua Jiang, Jie Shen, Guozhi Xiao, Xiaochun Bai, Huaiyu Wang, Huan-Tian Zhang, John R. Speakman, Di Chen, Liping Tong"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2026",
+      "date": "2026-02-09",
+      "doi": "10.1016/j.cmet.2026.01.008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2026.01.008",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.01.008",
+      "abstract": "Qin et al. demonstrated the chondroprotective effects of semaglutide in obesity-related osteoarthritis. Mechanistically, these effects are independent of body weight loss and involve metabolic reprogramming of chondrocyte via the GLP-1R-AMPK-PFKFB3 signaling axis.",
+      "relevance": "high",
+      "relevanceScore": 0.7,
+      "tags": [
+        "glp-1",
+        "obesity",
+        "body weight",
+        "metabolic",
+        "semaglutide"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2025-11-007",
+      "title": "Restricting lipid accumulation in tumor-infiltrating neutrophils mediates caloric restriction-induced anti-cancer effects",
+      "authors": [
+        "Jian Gao, Wei Zhang, Qian Li, Dan Zhao, Jiayi Cai, Qing Wang, Xin Li, Tingting Liu, Jin Li, Wengan Xiao, Huimin Li, Min Du, Bing Zhang, Peiying Li, Hong Tu, Yu Gan"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2025",
+      "date": "2025-12-05",
+      "doi": "10.1016/j.cmet.2025.11.007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2025.11.007",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2025.11.007",
+      "abstract": "Gao et al. reveal that caloric restriction exerts broad anti-tumor effects by reducing tumor-infiltrating neutrophils (TINs) and, importantly, inhibiting their HILPDA-mediated lipid accumulation via a blood-to-TIN IGF-1/HIF-1α/HILPDA axis, thereby suppressing tumor growth and enhancing anti-tumor immunity and anti-PD-1 efficacy by reducing TIN-derived lipid transfer to cancer and immune effector cells.",
+      "relevance": "low",
+      "relevanceScore": 0.2,
+      "tags": [
+        "caloric restriction",
+        "lipid"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1016_j-cmet-2025-11-016",
+      "title": "Uridine depletion impairs CD8⁺ T cell antitumor activity through N-glycosylation",
+      "authors": [
+        "Jianbiao Xiao, Zhiyang Li, Yi Ding, Kejin Zhu, Zhihao Zheng, Yaowei Zhang, Jiawen Weng, Feifei Wang, Yuqin Zhang, Sisi Zeng, Minxing Qiu, Zhaowen Zhang, Zhizhang Wang, Li Liang"
+      ],
+      "journal": "Cell Metabolism",
+      "year": "2025",
+      "date": "2025-12-29",
+      "doi": "10.1016/j.cmet.2025.11.016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.cmet.2025.11.016",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2025.11.016",
+      "abstract": "Xiao et al. reveal that sorting nexin 17 (SNX17) promotes the synthesis of uridine phosphorylase 1 (UPP1) in tumor cells, leading to a decrease in uridine concentration within the tumor microenvironment (TME). This reduction subsequently impairs the antitumor efficacy of CD8⁺ T cells in the TME.",
+      "relevance": "low",
+      "relevanceScore": 0,
+      "tags": [],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1038_s42255-026-01458-3",
+      "title": "Early-activated extracellular matrix proteins shape the metabolic and spatial dynamics of the kidney fibrotic microenvironment",
+      "authors": [
+        "Yuan Gui",
+        "Wenxue Li",
+        "Jia-Jun Liu",
+        "et al."
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1038/s42255-026-01458-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01458-3",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01458-3",
+      "abstract": null,
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "metabolic"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1038_s42255-026-01477-0",
+      "title": "Obesity as a catalyst for neurodegeneration",
+      "authors": [
+        "Bandy Chen",
+        "Amanda Rodríguez-Díaz",
+        "Marc Schneeberger",
+        "et al."
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-02-27",
+      "doi": "10.1038/s42255-026-01477-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01477-0",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01477-0",
+      "abstract": null,
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "obesity"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1038_s42255-026-01473-4",
+      "title": "White adipocyte thermogenesis is not an artefact but an in vivo phenomenon",
+      "authors": [],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-02-25",
+      "doi": "10.1038/s42255-026-01473-4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01473-4",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01473-4",
+      "abstract": null,
+      "relevance": "low",
+      "relevanceScore": 0,
+      "tags": [],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1038_s42255-026-01457-4",
+      "title": "PFKM governs metabolic shifts throughout skeletal muscle differentiation",
+      "authors": [
+        "Melissa Campos",
+        "Steven T. Nguyen",
+        "Xiangduo Kong",
+        "et al."
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-02-24",
+      "doi": "10.1038/s42255-026-01457-4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01457-4",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01457-4",
+      "abstract": null,
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "metabolic"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1038_s42255-026-01487-y",
+      "title": "Editorial Expression of Concern: The flavonoid procyanidin C1 has senotherapeutic activity and increases lifespan in mice",
+      "authors": [
+        "Qixia Xu",
+        "Qiang Fu",
+        "Zi Li",
+        "et al."
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-02-23",
+      "doi": "10.1038/s42255-026-01487-y",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01487-y",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01487-y",
+      "abstract": null,
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "lifespan"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1038_s42255-026-01467-2",
+      "title": "Fatty acids promote uncoupled respiration via ATP/ADP carriers in white adipocytes",
+      "authors": [
+        "Maryam Ahmadian",
+        "A. Melisa Aksu",
+        "Preetveer Dhillon",
+        "et al."
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-02-23",
+      "doi": "10.1038/s42255-026-01467-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01467-2",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01467-2",
+      "abstract": null,
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "fatty acid"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1038_s42255-026-01478-z",
+      "title": "Spatial protein gradients pattern liver metabolism",
+      "authors": [
+        "Zhen Dong",
+        "Tiannan Guo"
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-02-20",
+      "doi": "10.1038/s42255-026-01478-z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01478-z",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01478-z",
+      "abstract": null,
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "nts",
+        "metabolism"
+      ],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1038_s42255-026-01459-2",
+      "title": "Single-cell spatial proteomics maps human liver zonation patterns and their vulnerability to disruption in tissue architecture",
+      "authors": [
+        "Caroline A. M. Weiss",
+        "Lauryn A. Brown",
+        "Lucas Miranda",
+        "et al."
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-02-20",
+      "doi": "10.1038/s42255-026-01459-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01459-2",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01459-2",
+      "abstract": null,
+      "relevance": "low",
+      "relevanceScore": 0,
+      "tags": [],
+      "addedDate": "2026-03-04"
+    },
+    {
+      "id": "10-1080_10790268-2025-2609474",
+      "title": "Increased fibroblast growth factor 21 is associated with metabolic syndrome in chronic spinal cord injury: A cross-sectional study.",
+      "authors": [
+        "Sintip Pattanakuhar",
+        "Nattayaporn Apaijai",
+        "Nipon Chattipakorn",
+        "et al."
+      ],
+      "journal": "The journal of spinal cord medicine",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1080/10790268.2025.2609474",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41770220/",
+      "doiUrl": "https://doi.org/10.1080/10790268.2025.2609474",
+      "abstract": "To investigate the association between plasma fibroblast growth factor 21 (FGF21) and conventional metabolic parameters in people with chronic spinal cord injury (SCI). A cross-sectional study. An SCI-specialized rehabilitation facility in a university hospital. Fifty-six participants with chronic SCI (duration of SCI &#x2265; 1 year). Not applicable. After informed consent, demographic and SCI-related parameters were collected. Metabolic parameters, including anthropometric measures, body compo",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "fgf21",
+        "fibroblast growth factor 21",
+        "nts",
+        "obesity",
+        "diabetes"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1016_j-hrthm-2026-02-030",
+      "title": "Fibroblast growth factor 21 prevents catecholaminergic arrhythmias in a mouse model of PKP2 arrhythmogenic cardiomyopathy.",
+      "authors": [
+        "Xianming Lin",
+        "Noah Davidsohn",
+        "Sarah Boyce",
+        "et al."
+      ],
+      "journal": "Heart rhythm",
+      "year": "2026",
+      "date": "2026-02-27",
+      "doi": "10.1016/j.hrthm.2026.02.030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41759869/",
+      "doiUrl": "https://doi.org/10.1016/j.hrthm.2026.02.030",
+      "abstract": "Pathogenic variants in plakophilin-2 (PKP2) cause arrhythmogenic cardiomyopathy (ACM) with intracellular calcium dysregulation as a major component of its arrhythmia phenotype. Recent adeno-associated viral (AAV) based Pkp2 (AAV-PKP2) gene therapy has shown promising results in a few different PKP2-associated ACM models. Fibroblast growth factor 21 (FGF21) has multiple cardioprotective effects and has recently emerged as a promising therapeutic agent for cardiovascular disease. To assess the eff",
+      "relevance": "high",
+      "relevanceScore": 0.9,
+      "tags": [
+        "fgf21",
+        "fibroblast growth factor 21",
+        "nts"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1080_14728222-2026-2639678",
+      "title": "Feasibility of remnant cholesterol as a therapeutic target for atherosclerotic cardio-vascular disease.",
+      "authors": [
+        "Anders Berg Wulff",
+        "Anette Varbo",
+        "Ask Tybj&#xe6;rg Nordestgaard",
+        "et al."
+      ],
+      "journal": "Expert opinion on therapeutic targets",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1080/14728222.2026.2639678",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41758338/",
+      "doiUrl": "https://doi.org/10.1080/14728222.2026.2639678",
+      "abstract": "Elevated plasma concentration of remnant cholesterol, the cholesterol in triglyceride-rich lipoproteins, is associated with increased risk of atherosclerotic cardiovascular disease (ASCVD) in large observational epidemiological and Mendelian randomization studies. Novel drugs with pronounced remnant cholesterol-lowering effects are developed; however, their effect on risk of ASCVD remains to be documented. Observational epidemiological and Mendelian randomization studies and randomized controlle",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "fgf21",
+        "nts"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1016_j-jhep-2026-01-025",
+      "title": "Genetic evidence that FGF21 signaling reduces problematic alcohol use and alcohol-related liver disease.",
+      "authors": [
+        "Daniel B Rosoff",
+        "Josephin Wagner",
+        "Tyler Perlstein",
+        "et al."
+      ],
+      "journal": "Journal of hepatology",
+      "year": "2026",
+      "date": "2026-02-26",
+      "doi": "10.1016/j.jhep.2026.01.025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41747774/",
+      "doiUrl": "https://doi.org/10.1016/j.jhep.2026.01.025",
+      "abstract": "Fibroblast growth factor 21 (FGF21) analogs are in development for metabolic dysfunction-associated steatotic liver disease (MASLD), but their impact on problematic alcohol use (PAU), alcohol use disorder (AUD), binge drinking, and alcohol-related liver disease (ARLD) is unknown. We leveraged GWAS data from the UK Biobank, FinnGen, Million Veterans Program, and GenomALC for PAU, AUD, binge drinking, weekly drinks, and ARLD. Our four-tier evaluation included: (1) multivariable Mendelian randomiza",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "fgf21",
+        "fibroblast growth factor 21",
+        "klb",
+        "nts",
+        "metabolic"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1002_bem-70048",
+      "title": "Enhanced Effects of Static Magnetic Field Combined With FGF21SS in Diabetic Mice.",
+      "authors": [
+        "Guofeng Cheng",
+        "Hongxin Zhao",
+        "Xinmiao Ji",
+        "et al."
+      ],
+      "journal": "Bioelectromagnetics",
+      "year": "2026",
+      "date": "2026-02-26",
+      "doi": "10.1002/bem.70048",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41744363/",
+      "doiUrl": "https://doi.org/10.1002/bem.70048",
+      "abstract": "The increasing diabetic population, as well as the prevalence of high-fat diet-induced pre-diabetic conditions, have made it imperative to develop more effective and safe long-term prevention and treatment strategies. In recent years, both the physical method static magnetic field (SMF), and the endogenous hormone fibroblast growth factor 21 (FGF21) have shown promising treatment efficacy in type 2 diabetic animals. In this study, we further examined the effects of SMFs and FGF21SS (a thermal-st",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "fgf21",
+        "fibroblast growth factor 21",
+        "nts",
+        "diabetes",
+        "diabetic"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1111_acel-70423",
+      "title": "Acceleration of Lactate Uptake and Utilization Contributes to Neuroprotective Action of FGF21 Involved in Naturally Aging Mice.",
+      "authors": [
+        "Keru Ji",
+        "Hongde Wei",
+        "Ruguang Wang",
+        "et al."
+      ],
+      "journal": "Aging cell",
+      "year": "2026",
+      "date": "2026-02-21",
+      "doi": "10.1111/acel.70423",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41721736/",
+      "doiUrl": "https://doi.org/10.1111/acel.70423",
+      "abstract": "Brain aging is characterized by neuroinflammation and lactate metabolic changes. However, the functional role of FGF21 in the aging brain and its influence on lactate homeostasis remains unclear until now. In the study, male C57BL/6 mice were divided into 2-month-old (control), 20-month (aging), and FGF21-treated aging mice (FGF21). We also examined the MAPK signals and astrocyte-neuron lactate shuttle (ANLS) proteins in wild-type and hydroxycarboxylic acid receptor 1-knockout (HCA1-KO) mice wit",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "fgf21",
+        "metabolic",
+        "aging"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1016_j-foodres-2025-118175",
+      "title": "Pine nut oil as a functional alternative to corn oil: Process selection, provenance profiling, and multi-omics evidence of lipid-lowering efficacy in Western-diet mice.",
+      "authors": [
+        "Yiren Zhang",
+        "Wei Zeng",
+        "Yuanfa Liu",
+        "et al."
+      ],
+      "journal": "Food research international (Ottawa, Ont.)",
+      "year": "2026",
+      "date": "2026-02-07",
+      "doi": "10.1016/j.foodres.2025.118175",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41652743/",
+      "doiUrl": "https://doi.org/10.1016/j.foodres.2025.118175",
+      "abstract": "Pine nut oil (PNO) is a candidate alternative to corn oil (CO) owing to comparable unsaturated fatty-acid profiles and enrichment in pinolenic acid (&#x394;5-18:3) and lipid-soluble micronutrients. We systematically compared extraction routes (solvent, supercritical CO&#x2082;, pressing), established solvent extraction as the optimal balance of yield and bioactive retention, and then characterized solvent-extracted oils from eight provenances using a weighted composite score to nominate Pinus ta",
+      "relevance": "high",
+      "relevanceScore": 0.9,
+      "tags": [
+        "fgf21",
+        "nts",
+        "obese",
+        "glucose",
+        "lipid"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1016_j-foodres-2025-118244",
+      "title": "Edible mRNA platforms: The next frontier in precision functional foods.",
+      "authors": [
+        "Yuchen Liu",
+        "Lei Wang",
+        "Wengang Jin",
+        "et al."
+      ],
+      "journal": "Food research international (Ottawa, Ont.)",
+      "year": "2026",
+      "date": "2026-01-15",
+      "doi": "10.1016/j.foodres.2025.118244",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41539835/",
+      "doiUrl": "https://doi.org/10.1016/j.foodres.2025.118244",
+      "abstract": "The tendency toward functional foods is moving not toward the fixed intake of nutrient supplementation but toward dynamic biological regulation. Nanocarriers of edible mRNA are disruptive technologies, whereby foods may serve as bioreactors to induce temporary, targeted delivery of genes without posing the threat of genomic integration. The review is the summation of 156 peer-reviewed papers (2022--2025) and industrial reports to evaluate the bases of the technology, translational prospects, and",
+      "relevance": "high",
+      "relevanceScore": 0.9,
+      "tags": [
+        "fgf21",
+        "nts",
+        "obesity",
+        "metabolism",
+        "lipid"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-2337_db25-0655",
+      "title": "Downregulation of Hepatic PPA1 Protects Against Obesity by Elevating FGF21 Production via eIF2&#x3b1; Phosphorylation.",
+      "authors": [
+        "Yue Sun",
+        "Jinfu Zhang",
+        "Yuanyuan Su",
+        "et al."
+      ],
+      "journal": "Diabetes",
+      "year": "2026",
+      "date": "2026-02-20",
+      "doi": "10.2337/db25-0655",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41538425/",
+      "doiUrl": "https://doi.org/10.2337/db25-0655",
+      "abstract": "Chronic overnutrition promotes excessive hepatic triglyceride accumulation, subsequently leading to insulin resistance and systemic metabolic dysfunction. Inorganic pyrophosphatase 1 (PPA1), an enzyme that hydrolyzes inorganic pyrophosphate, plays a key role in driving synthetic biochemical reactions. Here, we identified PPA1 as a novel regulator of systemic energy expenditure that functions by controlling hepatic production of fibroblast growth factor 21 (FGF21). FGF21 is a hormone predominantl",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "fgf21",
+        "fibroblast growth factor 21",
+        "nts",
+        "energy expenditure",
+        "obesity"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1016_j-jnutbio-2025-110176",
+      "title": "Molecular hydrogen mitigates acetaminophen-induced liver injury and enhances the effects of N-acetylcysteine in diabetic mice.",
+      "authors": [
+        "Naomi Kamimura",
+        "Katsuya Iuchi",
+        "Tsutomu Igarashi",
+        "et al."
+      ],
+      "journal": "The Journal of nutritional biochemistry",
+      "year": "2026",
+      "date": "2026-01-04",
+      "doi": "10.1016/j.jnutbio.2025.110176",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41207540/",
+      "doiUrl": "https://doi.org/10.1016/j.jnutbio.2025.110176",
+      "abstract": "Acetaminophen (APAP) overdose induces severe liver injury, especially in diabetic patients. N-acetylcysteine (NAC) is commonly used as an approved antidote for APAP toxicity; however, its narrow therapeutic window limits its clinical utility. This study investigated the protective effects of molecular hydrogen (H&#x2082;) against APAP-induced hepatotoxicity in diabetic mice. Diabetic db/db mice were provided with hydrogen-dissolved water (H&#x2082;-water) for two weeks prior to APAP administrati",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "fgf21",
+        "fibroblast growth factor 21",
+        "nts",
+        "diabetic"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: FGF21"
+    },
+    {
+      "id": "10-1016_j-cca-2026-120840",
+      "title": "Klotho protein and insulin resistance.",
+      "authors": [
+        "Yaqin Cai",
+        "Bin Liu",
+        "Dandan Song",
+        "et al."
+      ],
+      "journal": "Clinica chimica acta; international journal of clinical chemistry",
+      "year": "2026",
+      "date": "2026-02-14",
+      "doi": "10.1016/j.cca.2026.120840",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41534643/",
+      "doiUrl": "https://doi.org/10.1016/j.cca.2026.120840",
+      "abstract": "Klotho was initially identified as an anti-ageing protein expressed mainly in renal distal tubular cells and the choroid plexus. The Klotho family comprises several members, including &#x3b1;-Klotho (&#x3b1;Kl), &#x3b2;-Klotho (&#x3b2;Kl), Klotho-LPH related protein (KLPH; lactase-phlorizin hydrolase), and Klotho-related protein (KlrP), which perform a multitude of functions related to various physiological processes. The effects of Klotho on various ageing-related and renal diseases, such as it",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "diabetes",
+        "insulin",
+        "insulin resistance"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: beta-Klotho/Klb"
+    },
+    {
+      "id": "10-1016_j-jinsphys-2026-104961",
+      "title": "Using gas exchange measurements to monitor growth, energy expenditure, and body composition of black soldier fly larvae (Hermetia illucens) on diets varying in protein-to-carbohydrate ratio.",
+      "authors": [
+        "Maja L Sch&#xf8;n",
+        "Kim Jensen",
+        "Mattias Schow-Madsen",
+        "et al."
+      ],
+      "journal": "Journal of insect physiology",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1016/j.jinsphys.2026.104961",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41771346/",
+      "doiUrl": "https://doi.org/10.1016/j.jinsphys.2026.104961",
+      "abstract": "Optimizing black soldier fly larvae (BSFL) production requires a better understanding of how diet composition shapes growth, nutrient allocation, and metabolic efficiency. This study investigated whether respiratory measurements could serve as predictive, non-invasive tools for BSFL performance on diets differing in protein-to-carbohydrate (P:C) ratio. Larvae were reared for seven days on four experimental diets, with growth, survival, gas exchange (O2 consumption, CO2 production, respiratory ex",
+      "relevance": "high",
+      "relevanceScore": 0.9,
+      "tags": [
+        "nts",
+        "energy expenditure",
+        "body composition",
+        "metabolic",
+        "lipid"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: Protein restriction"
+    },
+    {
+      "id": "10-1002_ccr3-72073",
+      "title": "A Rare Presentation of Right-Sided Pleural Effusion in Decompensated Chronic Liver Disease Secondary to Hepatitis C Infection: A Case Report.",
+      "authors": [
+        "Nadia Siddiq",
+        "Noor Fatima Rauf",
+        "Muhammad Hassaan Javaid",
+        "et al."
+      ],
+      "journal": "Clinical case reports",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1002/ccr3.72073",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41767067/",
+      "doiUrl": "https://doi.org/10.1002/ccr3.72073",
+      "abstract": "Hepatic hydrothorax (HH) is an infrequent and clinically important complication of decompensated liver cirrhosis. It occurs in around 5%-10% of affected people. Hepatic hydrothorax is basically a transudative pleural effusion, usually right-sided and commonly without evidence of primary cardiopulmonary or renal pathology. We present the case of a 73-year-old female patient with poorly monitored hepatitis C virus (HCV) infection presenting to the hospital with progressive abdominal distension, sh",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "nts"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: Protein restriction"
+    },
+    {
+      "id": "10-5582_irdr-2025-01075",
+      "title": "Foods for special medical purposes for the dietary therapy of rare diseases: Current status and future prospects.",
+      "authors": [
+        "Ting Zhang",
+        "Yun Wang",
+        "Cuiping Shi",
+        "et al."
+      ],
+      "journal": "Intractable &amp; rare diseases research",
+      "year": "2026",
+      "date": "2026-02-26",
+      "doi": "10.5582/irdr.2025.01075",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41744010/",
+      "doiUrl": "https://doi.org/10.5582/irdr.2025.01075",
+      "abstract": "Foods for special medical purposes (FSMPs) is a type of products that provides targeted nutritional support for specific diseases or physiological conditions. Compared with conventional dietary therapy, FSMPs are more targeted, safer, and applicable in clinic. When FSMPs are used to treat rare diseases, their core principle is to bypass or alleviate metabolic disorders. With the increasing recognition of clinical treatment effectiveness and the growing demand from patients, the types and market ",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "nts",
+        "metabolic"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: Protein restriction"
+    },
+    {
+      "id": "10-1111_jpn-70049",
+      "title": "Effect of Dietary Electrolyte Balance in Low-Protein Diet on Intestinal Barrier, Mitochondrial Function and Carcass Quality of Growing Pigs.",
+      "authors": [
+        "Jiaqi Hao",
+        "Lili Li",
+        "Qian Lin",
+        "et al."
+      ],
+      "journal": "Journal of animal physiology and animal nutrition",
+      "year": "2026",
+      "date": "2026-02-24",
+      "doi": "10.1111/jpn.70049",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41731909/",
+      "doiUrl": "https://doi.org/10.1111/jpn.70049",
+      "abstract": "In a low-protein diet, dietary electrolyte balance may be disrupted due to the reduction in the amount of soybean meal used and supplementation with lysine hydrochloride. The objective of this experiment was to evaluate the effects of dEB on intestinal barrier, mitochondrial function and carcass quality of growing pigs fed a low-protein diet. A total of 144 pigs (initial body weight 25.45&#x2009;&#xb1;&#x2009;0.36kg) were allotted to the control group with a crude protein (CP) level of 15.7% (CO",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "body weight"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: Protein restriction"
+    },
+    {
+      "id": "10-1371_journal-pone-0343526",
+      "title": "Nitrogen-protected thermal induction combined with Microbial Transglutaminase (MTG) cross-linking enhances functional properties and gel structure of Soy Protein Isolate relevant to gel-based feed formulation.",
+      "authors": [
+        "Yong Guo",
+        "Ling Qu"
+      ],
+      "journal": "PloS one",
+      "year": "2026",
+      "date": "2026-02-23",
+      "doi": "10.1371/journal.pone.0343526",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41729931/",
+      "doiUrl": "https://doi.org/10.1371/journal.pone.0343526",
+      "abstract": "Protein-based gel matrices are increasingly explored for feed applications requiring soft or semi-solid formulations, but achieving strong gelation along with high water- and oil-holding capacities at low protein concentrations remains challenging. In this study, soy protein isolate (SPI) was modified via nitrogen-protected thermal induction followed by microbial transglutaminase (MTG) cross-linking to enhance its suitability as a gel-feed matrix. Single-factor and orthogonal experimental design",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: Protein restriction"
+    },
+    {
+      "id": "10-3168_jds-2025-27548",
+      "title": "Effects of reduced metabolizable protein diets supplemented with rumen-protected His under adequate Met and Lys supply on production, nutrient digestibility, N utilization, and manure ammonia emissions in lactating cows.",
+      "authors": [
+        "K Park",
+        "J Kim",
+        "H Hu",
+        "et al."
+      ],
+      "journal": "Journal of dairy science",
+      "year": "2026",
+      "date": "2026-02-21",
+      "doi": "10.3168/jds.2025-27548",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41482036/",
+      "doiUrl": "https://doi.org/10.3168/jds.2025-27548",
+      "abstract": "Balancing for limiting AA may prevent reduced production when deficient MP is provided. The objective of the study was to determine the effects of rumen-protected (RP) His supplementation at different levels of MP when Lys and Met supplies meet the requirements. Sixty lactating cows (mean &#xb1; SD; parity, 2.47 &#xb1; 1.346; DIM, 112 &#xb1; 27; milk yield, 50 &#xb1; 8 kg/d) were used in a randomized complete block design and allocated to one of the following diets: an MP-adequate diet meeting t",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "nts"
+      ],
+      "addedDate": "2026-03-04",
+      "source": "PubMed: Protein restriction"
+    },
     {
       "pmid": "41655584",
       "doi": "10.1016/S0140-6736(25)02276-7",
       "title": "Efimosfermin alfa (BOS-580) once per month in people with metabolic dysfunction-associated steatohepatitis with F2 or F3 fibrosis: results from a 24-week, randomised, double-blind, placebo-controlled, phase 2 trial.",
-      "authors": ["Noureddin M", "Kowdley KV", "Odrljin T", "Bain G", "Zhao J", "Loomba R", "et al."],
+      "authors": [
+        "Noureddin M",
+        "Kowdley KV",
+        "Odrljin T",
+        "Bain G",
+        "Zhao J",
+        "Loomba R",
+        "et al."
+      ],
       "journal": "The Lancet",
       "published": "2026-02-21",
       "abstract": "Efimosfermin alfa (BOS-580) is an FGF21 analogue dosed once monthly by subcutaneous injection. In this 24-week phase 2 RCT in patients with biopsy-confirmed MASH (F2/F3 fibrosis), efimosfermin was well tolerated with mostly mild-to-moderate GI side effects. No deaths or grade 3+ adverse events were observed. Results support continued development of monthly FGF21 analogue therapy for MASH-related fibrosis.",
       "relevance": "high",
-      "tags": ["FGF21 analogue", "MASH", "clinical trial", "liver fibrosis", "pharmacology"]
+      "tags": [
+        "FGF21 analogue",
+        "MASH",
+        "clinical trial",
+        "liver fibrosis",
+        "pharmacology"
+      ]
     },
     {
       "pmid": "41733121",
       "doi": "10.1002/advs.202515575",
       "title": "Rapid Remodeling of the Human Gut Microbiome in Response to Short-Term Animal Product Restriction and Associations with Host Molecular Phenotypes.",
-      "authors": ["Emmanouil C", "Anezaki M", "Simistiras A", "Glentis S", "Dimas AS", "et al."],
+      "authors": [
+        "Emmanouil C",
+        "Anezaki M",
+        "Simistiras A",
+        "Glentis S",
+        "Dimas AS",
+        "et al."
+      ],
       "journal": "Advanced Science",
       "published": "2026-02-24",
       "abstract": "Multi-omics profiling (16S rRNA, metabolomics, proteomics) of 200 individuals alternating between omnivory and animal product restriction for religious reasons. Dietary restriction reduced microbial diversity and shifted one-third of bacterial genera. A diet-responsive module associated Negativibacillus with FGF21 and intermediate-density lipoproteins, suggesting FGF21 as a circulating mediator linking gut microbiome remodeling to host metabolic responses during protein/animal product restriction.",
       "relevance": "medium",
-      "tags": ["dietary restriction", "gut microbiome", "FGF21", "multi-omics", "protein restriction"]
+      "tags": [
+        "dietary restriction",
+        "gut microbiome",
+        "FGF21",
+        "multi-omics",
+        "protein restriction"
+      ]
     },
     {
       "pmid": "41711840",
       "doi": "10.1007/s00210-026-05015-3",
       "title": "Decoding the mechanistic basis of liver-muscle communication in health and disease.",
-      "authors": ["Gamil NM", "Elsayed HA", "Salah ET", "Mostafa HA", "El-Shiekh RA", "et al."],
+      "authors": [
+        "Gamil NM",
+        "Elsayed HA",
+        "Salah ET",
+        "Mostafa HA",
+        "El-Shiekh RA",
+        "et al."
+      ],
       "journal": "Naunyn-Schmiedeberg's Archives of Pharmacology",
       "published": "2026-02-19",
       "abstract": "Comprehensive review of liver-skeletal muscle crosstalk via inflammatory mediators (TNF-α, IL-6), metabolic regulators (mTOR, AMPK), hepatokines, and myokines. FGF21 is mentioned as part of liver-heart crosstalk alongside IL-6/STAT3 signaling. Broad review with FGF21 as a peripheral reference point rather than a primary focus.",
       "relevance": "low",
-      "tags": ["hepatokines", "FGF21", "liver-muscle axis", "review", "metabolism"]
+      "tags": [
+        "hepatokines",
+        "FGF21",
+        "liver-muscle axis",
+        "review",
+        "metabolism"
+      ]
     }
   ]
 }
