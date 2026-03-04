@@ -203,3 +203,13 @@ init().catch(err => {
   document.getElementById('papers').innerHTML =
     `<p style="color:red;padding:2rem">Failed to load papers: ${err.message}</p>`;
 });
+
+// ── Mobile filter toggle ──────────────────────────────────────────────────────
+const toggleBtn = document.getElementById('filters-toggle');
+const filtersEl = document.getElementById('filters');
+if (toggleBtn && filtersEl) {
+  toggleBtn.addEventListener('click', () => {
+    const open = filtersEl.classList.toggle('open');
+    toggleBtn.setAttribute('aria-expanded', open);
+  });
+}
