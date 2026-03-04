@@ -124,8 +124,21 @@ function toRIS(p) {
   return lines.join('\n');
 }
 
+const RELEVANCE_ORDER = { high: 0, medium: 1, low: 2 };
+
+function sortByRelevance(papers) {
+  return [...papers].sort((a, b) => {
+    const ra = RELEVANCE_ORDER[a.relevance] ?? 2;
+    const rb = RELEVANCE_ORDER[b.relevance] ?? 2;
+    if (ra !== rb) return ra - rb;
+    // Within same tier: newest first
+    return (b.date || '').localeCompare(a.date || '');
+  });
+}
+
 function renderPapers(papers) {
   const container = document.getElementById('papers');
+  papers = sortByRelevance(papers);
   const empty = document.getElementById('empty');
 
   if (!papers.length) {
