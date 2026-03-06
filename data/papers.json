@@ -1,6 +1,2359 @@
 {
-  "updated": "2026-03-04",
+  "updated": "2026-03-06",
   "papers": [
+    {
+      "id": "10-1038_s42255-026-01472-5",
+      "title": "Tiny extracellular vesicles drive big feeding effects",
+      "authors": [
+        "Khadija Khan",
+        "Clair Crewe"
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1038/s42255-026-01472-5",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01472-5",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01472-5",
+      "abstract": "Nature Metabolism, Published online: 05 March 2026; doi:10.1038/s42255-026-01472-5 A study published in Nature Metabolism shows that extracellular vesicles from a small group of hypothalamic α-tanycytes direct diurnal feeding behaviour to maintain body weight and glucose homeostasis.",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "hypothalamic",
+        "body weight",
+        "metabolism",
+        "glucose"
+      ],
+      "source": "Nature Metabolism",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1038_s42255-026-01474-3",
+      "title": "Metabolic regulation by tanycyte-derived extracellular vesicles through insulin precursor-mediated neuronal recognition and mTORC component delivery",
+      "authors": [
+        "Yuna Choi",
+        "Min Woo Kim",
+        "Gyeongyun Go",
+        "et al."
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1038/s42255-026-01474-3",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01474-3",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01474-3",
+      "abstract": "Nature Metabolism, Published online: 05 March 2026; doi:10.1038/s42255-026-01474-3 Tanycyte-derived extracellular vesicles are shown to regulate feeding diurnality and metabolic balance through insulin precursor-mediated targeting and delivery of mTORC components to hypothalamic neurons.",
+      "relevance": "high",
+      "relevanceScore": 0.7,
+      "tags": [
+        "hypothalamic",
+        "insulin",
+        "metabolism",
+        "metabolic",
+        "liver"
+      ],
+      "source": "Nature Metabolism",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1038_s42255-026-01490-3",
+      "title": "Weighing in on the incretin revolution",
+      "authors": [],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1038/s42255-026-01490-3",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01490-3",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01490-3",
+      "abstract": "Nature Metabolism, Published online: 04 March 2026; doi:10.1038/s42255-026-01490-3 Incretin-based therapies have revolutionized the treatment of obesity and related metabolic disorders. On World Obesity Day (4 March), we discuss incretin-based therapies as go-to treatments for obesity and its comorbidities, highlighting triumphs and cautionary tales.",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "incretin",
+        "obesity",
+        "metabolism",
+        "metabolic"
+      ],
+      "source": "Nature Metabolism",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1038_s42255-026-01486-z",
+      "title": "TRIPping anti-tumour immunity through lactylation",
+      "authors": [
+        "Nannan Xu",
+        "Xuemei Tong"
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1038/s42255-026-01486-z",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01486-z",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01486-z",
+      "abstract": "Nature Metabolism, Published online: 04 March 2026; doi:10.1038/s42255-026-01486-z KRAS mutations in colorectal cancers shape an immunosuppressive tumour microenvironment. In this issue of Nature Metabolism, Yang et al. report that TRIP6 phosphorylation-induced glycolysis in KRAS-mutant colorectal cancer impedes CD8+ T cell function by the intriguing extracellular lactylation of CD44.",
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "metabolism"
+      ],
+      "source": "Nature Metabolism",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1038_s42255-026-01482-3",
+      "title": "Extracellular CD44 lactylation impairs CD8<sup>+</sup> T cell function in <i>KRAS</i>-mutant colorectal cancer",
+      "authors": [
+        "Yun Yang",
+        "Yong Wu",
+        "Xin Guo",
+        "et al."
+      ],
+      "journal": "Nature Metabolism",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1038/s42255-026-01482-3",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs42255-026-01482-3",
+      "doiUrl": "https://doi.org/10.1038/s42255-026-01482-3",
+      "abstract": "Nature Metabolism, Published online: 04 March 2026; doi:10.1038/s42255-026-01482-3 TRIP6 phosphorylation triggers a signalling cascade that promotes glycolysis in KRAS-mutant colorectal cancer cells. The resulting lactate accumulation drives extracellular lactylation of CD44 on CD8⁺ T cells, thereby compromising their anti-tumour activity.",
+      "relevance": "low",
+      "relevanceScore": 0.1,
+      "tags": [
+        "metabolism"
+      ],
+      "source": "Nature Metabolism",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-celrep-2026-117010",
+      "title": "ACSL4-associated lipid metabolism is a distinct therapeutic vulnerability in KMT2A-rearranged acute myeloid leukemia",
+      "authors": [
+        "Silvia Schäfer",
+        "Elahe Rahimian",
+        "Lola Schmitz-Hübsch",
+        "et al."
+      ],
+      "journal": "Cell Reports",
+      "year": "2026",
+      "date": "2026-02-18",
+      "doi": "10.1016/j.celrep.2026.117010",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.celrep.2026.117010",
+      "doiUrl": "https://doi.org/10.1016/j.celrep.2026.117010",
+      "abstract": "Schäfer et al. identify ACSL4 as a selective vulnerability in KMT2A-rearranged AML. ACSL4 knockdown impairs leukemic growth in vitro and in vivo by reprogramming lipid metabolism, which can be rescued by polyunsaturated fatty acids (PUFAs). A KRADS12 signature derived from ACSL4-dependent cells is associated with poor patient survival.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "metabolism",
+        "lipid",
+        "fatty acid"
+      ],
+      "source": "Cell Reports",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-celrep-2026-117061",
+      "title": "Large adipocytes increase vesicle-mediated lipid release and promote breast cancer malignancy",
+      "authors": [
+        "Garrett F. Beeghly",
+        "Irina Kopyeva",
+        "Jenny Deng",
+        "et al."
+      ],
+      "journal": "Cell Reports",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1016/j.celrep.2026.117061",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.celrep.2026.117061",
+      "doiUrl": "https://doi.org/10.1016/j.celrep.2026.117061",
+      "abstract": "In response to weight gain, adipocytes increase in number or volume—yet how adipocyte size impacts cell function remains unclear. Here, Beeghly et al. demonstrate that large versus small adipocytes from the same adipose depot exhibit distinct phenotypes and increase vesicle-mediated lipid release with implications for metabolic disease and cancer.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "adipose",
+        "metabolic",
+        "lipid"
+      ],
+      "source": "Cell Reports",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-celrep-2026-117023",
+      "title": "Insulin and adipocyte IRF4 promote fat retention over muscle preservation during intermittent fasting in obesity",
+      "authors": [
+        "Daniel M. Marko",
+        "Meghan O. Conn",
+        "Joseph F. Cavallari",
+        "et al."
+      ],
+      "journal": "Cell Reports",
+      "year": "2026",
+      "date": "2026-02-19",
+      "doi": "10.1016/j.celrep.2026.117023",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.celrep.2026.117023",
+      "doiUrl": "https://doi.org/10.1016/j.celrep.2026.117023",
+      "abstract": "Marko et al. show that elevated insulin in obese mice suppresses adipocyte IRF4, which governs fat versus muscle preservation during 5:2 intermittent fasting (IF) with or without caloric restriction. During an acute fast in humans, obesity and elevated insulin promoted lean mass loss in males but not females.",
+      "relevance": "high",
+      "relevanceScore": 0.7,
+      "tags": [
+        "obesity",
+        "obese",
+        "insulin",
+        "caloric restriction",
+        "intermittent fasting"
+      ],
+      "source": "Cell Reports",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-celrep-2026-117025",
+      "title": "Lateral hypothalamus directs stress-induced modulation of acute and psoriatic itch",
+      "authors": [
+        "Jagat Narayan Prajapati",
+        "Aynal Hoque",
+        "Manojeet Pattanayak",
+        "et al."
+      ],
+      "journal": "Cell Reports",
+      "year": "2026",
+      "date": "2026-02-20",
+      "doi": "10.1016/j.celrep.2026.117025",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.celrep.2026.117025",
+      "doiUrl": "https://doi.org/10.1016/j.celrep.2026.117025",
+      "abstract": "This study reveals the neural circuit mechanisms through which stress and itch interact in the brain. Neurons in the lateral hypothalamus play a critical role in the suppression of itch by stress.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "hypothalamus"
+      ],
+      "source": "Cell Reports",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1111_acel-70434",
+      "title": "Decreased Glucose Metabolism and Declined Chaperones Are Unique Features Required for the Survival of Senescent Fibroblasts and Pyruvate Dehydrogenase Is a Potent Senolytic Target",
+      "authors": [
+        "Mingzhu Zhang",
+        "Ziqi Hu",
+        "Shengwen Piao",
+        "et al."
+      ],
+      "journal": "Aging Cell",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1111/acel.70434",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1111%2Facel.70434",
+      "doiUrl": "https://doi.org/10.1111/acel.70434",
+      "abstract": "Aging Cell, Volume 25, Issue 3, March 2026.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "metabolism",
+        "glucose",
+        "aging"
+      ],
+      "source": "Aging Cell",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1038_s43587-026-01069-3",
+      "title": "Estropausal gut microbiota transplant improves measures of ovarian function in adult mice",
+      "authors": [
+        "Minhoo Kim",
+        "Justin Wang",
+        "Steven E. Pilley",
+        "et al."
+      ],
+      "journal": "Nature Aging",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1038/s43587-026-01069-3",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs43587-026-01069-3",
+      "doiUrl": "https://doi.org/10.1038/s43587-026-01069-3",
+      "abstract": "Nature Aging, Published online: 03 March 2026; doi:10.1038/s43587-026-01069-3 To investigate the link between the gut microbiome and ovarian health, here the authors transplant gut microbiota from estropausal female mice to young adult female mice. Microbial transplantation improves ovarian hormone profiles, follicle metrics and fertility-related outcomes, highlighting a causal role for the aging gut microbiome in regulating ovarian function.",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "microbiome",
+        "microbiota",
+        "aging"
+      ],
+      "source": "Nature Aging",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1172_JCI172380",
+      "title": "α-Ketoglutarate protects against cartilage damage via epigenetically driven metabolic reprogramming in osteoarthritis models",
+      "authors": [
+        "Shuaijun Li",
+        "Jiefeng Huang",
+        "Ting Shang",
+        "et al."
+      ],
+      "journal": "JCI",
+      "year": "",
+      "date": "",
+      "doi": "10.1172/JCI172380",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1172%2FJCI172380",
+      "doiUrl": "https://doi.org/10.1172/JCI172380",
+      "abstract": "The link between glutaminolysis and osteoarthritis (OA) has only recently begun to be elucidated. Here, we report the association of obesity- and injury-induced cartilage damage with impaired glutaminolysis in chondrocytes. Defective glutaminolysis triggered the onset and progression of OA, with enhanced catabolism and decreased anabolism. Supplementation of α-ketoglutarate (αKG), a key component in glutaminolysis and an epigenetic factor, effectively protected cartilage against degradation in v",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "obesity",
+        "metabolism",
+        "metabolic"
+      ],
+      "source": "JCI",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1172_JCI196944",
+      "title": "A midbrain–cortical circuit mediated by a claustrum neuronal ensemble orchestrates drug-paired context memory processing",
+      "authors": [
+        "Ziheng Zhao",
+        "Yuhong He",
+        "Yang Liu",
+        "et al."
+      ],
+      "journal": "JCI",
+      "year": "",
+      "date": "",
+      "doi": "10.1172/JCI196944",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1172%2FJCI196944",
+      "doiUrl": "https://doi.org/10.1172/JCI196944",
+      "abstract": "Drug-associated environmental cues can trigger drug-seeking behavior and precipitate relapse. In this study, we determined that the claustrum (CL) connects the ventral tegmental area (VTA) with the medial prefrontal cortex (mPFC), forming the VTA–CL–mPFC circuit. Using a methamphetamine (METH) conditioned place preference (CPP) model in male mice, we found that manipulating the VTA–CL–mPFC circuit or CL neuronal ensemble receiving projections from VTA and projecting to mPFC (VTA–CL–mPFC) could d",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "ventral tegmental area"
+      ],
+      "source": "JCI",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1172_JCI200913",
+      "title": "Hepatic steatosis in humans is associated with preserved glucagon action on amino acid metabolism",
+      "authors": [
+        "Hannah E. Christie",
+        "Sneha Mohan",
+        "Aoife M. Egan",
+        "et al."
+      ],
+      "journal": "JCI",
+      "year": "",
+      "date": "",
+      "doi": "10.1172/JCI200913",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1172%2FJCI200913",
+      "doiUrl": "https://doi.org/10.1172/JCI200913",
+      "abstract": "BACKGROUND Amino acid (AA) concentrations are increased in prediabetes and diabetes. Since AAs stimulate glucagon secretion, which should then increase hepatic AA catabolism, it has been hypothesized that hepatic resistance (associated with hepatic fat content) to glucagon’s actions on AA metabolism leads to hyperglucagonemia and hyperglycemia.METHODS To test this hypothesis, we therefore studied lean and obese individuals, the latter group with and without hepatic steatosis as defined by proton",
+      "relevance": "high",
+      "relevanceScore": 0.7,
+      "tags": [
+        "obese",
+        "diabetes",
+        "insulin",
+        "metabolism",
+        "glucose"
+      ],
+      "source": "JCI",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1172_JCI200945",
+      "title": "Molecular stress and neurovascular injury in the diabetic retina",
+      "authors": [
+        "Chuanyu Guo",
+        "Akrit Sodhi"
+      ],
+      "journal": "JCI",
+      "year": "",
+      "date": "",
+      "doi": "10.1172/JCI200945",
+      "pmid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1172%2FJCI200945",
+      "doiUrl": "https://doi.org/10.1172/JCI200945",
+      "abstract": "Diabetic retinopathy (DR), the most common microvascular complication in patients with diabetes mellitus (DM), is a leading cause of vision loss worldwide. Sustained hyperglycemia plays a central role in promoting DR. However, tight glycemic control does not prevent — and indeed sometimes worsens — DR, highlighting the importance of ongoing studies aimed at improving our understanding of this complex disease. Over the last few decades, the dogma that DR is a vascular disease that results in seco",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "diabetes",
+        "diabetic",
+        "metabolism",
+        "glucose"
+      ],
+      "source": "JCI",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1038_s41586-026-10205-3",
+      "title": "Microbiota-mediated induction of beige adipocytes in response to dietary cues.",
+      "authors": [
+        "Takeshi Tanoue",
+        "Manabu Nagayama",
+        "Ayumi J A Roochana",
+        "et al."
+      ],
+      "journal": "Nature",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1038/s41586-026-10205-3",
+      "pmid": "41781619",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41781619/",
+      "doiUrl": "https://doi.org/10.1038/s41586-026-10205-3",
+      "abstract": "Interactions between diet and the gut microbiota are fundamental to metabolic health, shaping energy balance and disease susceptibility1-5. However, the underlying mechanisms by which dietary and microbial factors converge to regulate host physiology remain unclear. Here we show that protein availability profoundly modulates the functional landscape of the gut microbiota and promotes remodelling of white adipose tissue (WAT). Specifically, low-protein diets (LPDs) robustly induce signature genes",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "fgf21",
+        "fibroblast growth factor",
+        "adipose",
+        "metabolism",
+        "metabolic"
+      ],
+      "source": "PubMed: FGF21",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-cmet-2026-02-005",
+      "title": "The S100A8/A9 complex promotes food intake and prevents adipose tissue loss during cancer cachexia in mice.",
+      "authors": [
+        "Lin Gao",
+        "Ying Liu",
+        "Ying Yu",
+        "et al."
+      ],
+      "journal": "Cell metabolism",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1016/j.cmet.2026.02.005",
+      "pmid": "41780522",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41780522/",
+      "doiUrl": "https://doi.org/10.1016/j.cmet.2026.02.005",
+      "abstract": "Cancer cachexia is a wasting syndrome characterized by reduced food intake and lean and fat tissue loss. In mice, cancer cachexia involved marked reductions in host fat and lean mass (particularly skeletal muscle), which were balanced by tumor growth. Using 15N tracing, the tumor gets protein (nitrogen) from both food intake and host tissue breakdown. Total energy expenditure remained unchanged due to metabolic compensation among the tumor, brown adipose tissue (BAT), and other organs, a phenome",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamus",
+        "hypothalamic",
+        "food intake",
+        "energy expenditure",
+        "adipose"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-mce-2026-112773",
+      "title": "FAM237B, a conserved orexigenic neuropeptide, is regulated by fasting, insulin, and neuroinflammation in mouse hypothalamic NPY/AgRP neurons.",
+      "authors": [
+        "Wenyuan He",
+        "Emma K McIlwraith",
+        "Denise D Belsham"
+      ],
+      "journal": "Molecular and cellular endocrinology",
+      "year": "2026",
+      "date": "2026-03-01",
+      "doi": "10.1016/j.mce.2026.112773",
+      "pmid": "41765162",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41765162/",
+      "doiUrl": "https://doi.org/10.1016/j.mce.2026.112773",
+      "abstract": "Agouti-related peptide (AgRP) and neuropeptide Y (NPY) neurons in the arcuate nucleus integrate metabolic and inflammatory signals to control food intake. FAM237B (Gm8773/NPGM) is a putative orexigenic peptide enriched in a subset of AgRP neurons, yet misannotated as a long non-coding RNA in mice that has since been recognized as a 139 aa microprotein. Here, we combine evolutionary, transcriptomic, and physiological approaches to define FAM237B as an ancient, metabolically regulated neuropeptide",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamus",
+        "hypothalamic",
+        "food intake",
+        "energy homeostasis",
+        "arcuate nucleus"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-cub-2026-01-074",
+      "title": "Thermal-state-dependent control of body temperature and feeding by two intra-hypothalamic pathways.",
+      "authors": [
+        "Hanan Bouaouda",
+        "Sara Nencini",
+        "Jan Siemens"
+      ],
+      "journal": "Current biology : CB",
+      "year": "2026",
+      "date": "2026-02-28",
+      "doi": "10.1016/j.cub.2026.01.074",
+      "pmid": "41763211",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41763211/",
+      "doiUrl": "https://doi.org/10.1016/j.cub.2026.01.074",
+      "abstract": "The intricate interplay between energy metabolism and body temperature regulation underscores the necessity of finely tuned mechanisms to maintain thermo-energetic homeostasis. Hot environments are known to suppress food intake and to reduce energy expenditure. However, the interplay between thermoregulatory and caloric-regulatory hypothalamic areas remains largely unexplored. In this study, we unveil two pathways originating from a subpopulation of genetically defined leptin receptor-expressing",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamus",
+        "hypothalamic",
+        "food intake",
+        "energy expenditure",
+        "arcuate nucleus"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-bbrc-2026-153531",
+      "title": "Orexin-A signaling modulates dopamine neurons and palatable food seeking: potential involvement of &#x3bc;-opioid receptor signaling pathway.",
+      "authors": [
+        "Xiao Luan",
+        "Yang Liu",
+        "Xiaoqian Zhang",
+        "et al."
+      ],
+      "journal": "Biochemical and biophysical research communications",
+      "year": "2026",
+      "date": "2026-02-28",
+      "doi": "10.1016/j.bbrc.2026.153531",
+      "pmid": "41762866",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41762866/",
+      "doiUrl": "https://doi.org/10.1016/j.bbrc.2026.153531",
+      "abstract": "Obesity is associated with binge eating and abnormal activation of the reward pathway. Hypothalamic neuropeptides such as orexin-A and &#x3bc;-opioid receptor signaling are closely involved in feeding behavior and reward processing; however, the interaction between orexin-A and &#x3bc;-opioid receptor signaling in palatable food seeking remains unclear. We used fluorogold retrograde tracing to examine neural projection between the perifornical region (PeF) and the ventral tegmental area (VTA). I",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamic",
+        "ventral tegmental area",
+        "feeding behavior",
+        "obesity"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1038_s41467-026-68968-2",
+      "title": "Bifidobacterium longum and prebiotic interventions restore early-life high-fat/high-sugar diet-induced alterations in feeding behavior in adult mice.",
+      "authors": [
+        "Cristina Cuesta-Marti",
+        "Eduardo Ponce-Espa&#xf1;a",
+        "Friederike Uhlig",
+        "et al."
+      ],
+      "journal": "Nature communications",
+      "year": "2026",
+      "date": "2026-02-24",
+      "doi": "10.1038/s41467-026-68968-2",
+      "pmid": "41735265",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735265/",
+      "doiUrl": "https://doi.org/10.1038/s41467-026-68968-2",
+      "abstract": "An unhealthy diet disrupts feeding behavior and the gut microbiota, but whether early-life dietary effects persist, or can be restored later in life, remains unclear. We investigated whether microbiota-targeted interventions (FOS&#x2009;+&#x2009;GOS or Bifidobacterium longum APC1472) could restore early-life high-fat/high-sugar (HFHS) diet-induced feeding alterations in adult female and male mice. HFHS exposure exclusively in early-life induced persistent, sex-specific feeding alterations in adu",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamic",
+        "feeding behavior",
+        "body weight",
+        "metabolism",
+        "gut-brain"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-ejphar-2026-178643",
+      "title": "Central FGF19 reduces hypothalamic inflammation and improves leptin signaling in obese mice.",
+      "authors": [
+        "Lucas Zangerolamo",
+        "Marina Carvalho",
+        "Kelly C P Bem",
+        "et al."
+      ],
+      "journal": "European journal of pharmacology",
+      "year": "2026",
+      "date": "2026-02-19",
+      "doi": "10.1016/j.ejphar.2026.178643",
+      "pmid": "41651333",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41651333/",
+      "doiUrl": "https://doi.org/10.1016/j.ejphar.2026.178643",
+      "abstract": "Obesity is a chronic metabolic disorder characterized by systemic and hypothalamic inflammation that impairs neuronal signaling and disrupts the fine-tuning of energy balance regulation. Leptin resistance, a hallmark of obesity, arises from this inflammatory state and contributes to increased food intake and reduced energy expenditure (EE). Fibroblast growth factor 19 (FGF19), a gut-derived hormone with beneficial metabolic effects in peripheral tissues, also acts centrally to reduce body weight",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamic",
+        "food intake",
+        "energy expenditure",
+        "energy homeostasis",
+        "fibroblast growth factor"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-molmet-2026-102326",
+      "title": "Survodutide acts through circumventricular organs in the brain and activates neuronal regions associated with appetite regulation.",
+      "authors": [
+        "Tina Zimmermann",
+        "Katherin Bleymehl",
+        "Peter Haebel",
+        "et al."
+      ],
+      "journal": "Molecular metabolism",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1016/j.molmet.2026.102326",
+      "pmid": "41638399",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41638399/",
+      "doiUrl": "https://doi.org/10.1016/j.molmet.2026.102326",
+      "abstract": "Survodutide is a novel GCG/GLP-1 receptor (GCGR/GLP-1R) dual agonist in clinical development for people with obesity and people with metabolic dysfunction-associated steatohepatitis (MASH). Preclinically, survodutide demonstrated body weight lowering efficacy through decreased energy intake and increased energy expenditure. Here, we investigated the central site of action of survodutide and provide further insights into its mechanism of action in reducing body weight. We assessed GCGR and GLP1R ",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "hypothalamus",
+        "hypothalamic",
+        "food intake",
+        "energy expenditure"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-celrep-2025-116904",
+      "title": "A spatial and projection-based transcriptomic atlas of paraventricular hypothalamic cell types.",
+      "authors": [
+        "Yuxi Li",
+        "Trevor C Butler",
+        "Stefano Nardone",
+        "et al."
+      ],
+      "journal": "Cell reports",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1016/j.celrep.2025.116904",
+      "pmid": "41581146",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41581146/",
+      "doiUrl": "https://doi.org/10.1016/j.celrep.2025.116904",
+      "abstract": "The paraventricular hypothalamus (PVH) controls behavioral and physiologic processes, including appetite, social behavior, autonomic outflow, and pituitary hormone secretion. However, molecular markers for centrally projecting PVH neuron populations remain largely undefined, and a complete census of PVH cell types has not been established. Therefore, we performed extensive single-cell/nucleus RNA sequencing to catalog PVH neuron subtypes and multiplexed error-robust fluorescence in situ hybridiz",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamus",
+        "hypothalamic",
+        "parabrachial",
+        "food intake",
+        "obesity"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1152_ajpcell-00765-2025",
+      "title": "Central activation of chaperone-mediated autophagy reduces appetite by fine-tuning hypothalamic amino acid pools: new insights from fish.",
+      "authors": [
+        "Steffi Reji",
+        "Emilio J V&#xe9;lez",
+        "Ayel&#xe9;n M Blanco",
+        "et al."
+      ],
+      "journal": "American journal of physiology. Cell physiology",
+      "year": "2026",
+      "date": "2026-02-11",
+      "doi": "10.1152/ajpcell.00765.2025",
+      "pmid": "41525106",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41525106/",
+      "doiUrl": "https://doi.org/10.1152/ajpcell.00765.2025",
+      "abstract": "Chaperone-mediated autophagy (CMA) is a key lysosomal proteolytic pathway essential for cellular homeostasis and metabolism, with dysfunction linked to various human diseases. Although extensively studied in humans and mice, CMA was only recently identified in fish, paving the way for novel and evolutionary research perspectives. Here, we demonstrate a role for CMA in regulating feed intake (FI) in rainbow trout (Oncorhynchus mykiss), a major aquaculture species and a widely used model in numero",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamus",
+        "hypothalamic",
+        "feeding behavior",
+        "metabolism",
+        "metabolic"
+      ],
+      "source": "PubMed: Hypothalamic feeding",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1097_MS9-0000000000004725",
+      "title": "GLP-1 receptor agonists for smoking cessation: a narrative review of weight management potential.",
+      "authors": [
+        "Ghazi Uddin Ahmed",
+        "Eiman Zehra",
+        "Sana Rasheed",
+        "et al."
+      ],
+      "journal": "Annals of medicine and surgery (2012)",
+      "year": "2026",
+      "date": "2026-03-06",
+      "doi": "10.1097/MS9.0000000000004725",
+      "pmid": "41789246",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41789246/",
+      "doiUrl": "https://doi.org/10.1097/MS9.0000000000004725",
+      "abstract": "Smoking cessation is a major public health goal, yet concerns about post-cessation weight gain remain a significant barrier for many smokers. The metabolic and behavioral changes following nicotine withdrawal frequently lead to increased caloric intake and reduced energy expenditure, potentially triggering relapse. Glucagon-like peptide-1 receptor agonists (GLP-1 RAs), originally developed for type 2 diabetes and later approved for weight management, have recently been investigated as a potentia",
+      "relevance": "high",
+      "relevanceScore": 0.9,
+      "tags": [
+        "glp-1",
+        "energy expenditure",
+        "diabetes",
+        "metabolic",
+        "appetite"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-molmet-2026-102347",
+      "title": "Brainstem GLP-1 neurons modulate physiological satiation and drive sustained weight loss in obese mice.",
+      "authors": [
+        "Wanqing Jiang",
+        "Cecilia Skoug",
+        "Ian Rodrigues",
+        "et al."
+      ],
+      "journal": "Molecular metabolism",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1016/j.molmet.2026.102347",
+      "pmid": "41786245",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41786245/",
+      "doiUrl": "https://doi.org/10.1016/j.molmet.2026.102347",
+      "abstract": "Glucagon-like peptide-1 receptor (GLP-1R) activation in the brain strongly reduces appetite, but most brain GLP-1Rs are not accessible for systemically administered GLP-1R agonists. Acute activation of nucleus tractus solitarius (NTS) GLP-1 neurons, known as preproglucagon (PPG) neurons, strongly suppresses food intake separate from GLP-1R agonists. However, it is unknown if chronic stimulation of PPG neurons is a viable strategy for appetite suppression, or if obesity disrupts their function. H",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "food intake",
+        "obesity",
+        "obese",
+        "satiation"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-foodchem-2026-148588",
+      "title": "Selective detoxification of digesta revealed how cold-pressed apple fractions modulate transepithelial glucose transport and stimulate GLP-1 secretion.",
+      "authors": [
+        "Ivan M Lopez-Rodulfo",
+        "Martin K Rasmussen",
+        "Bruce Hamaker",
+        "et al."
+      ],
+      "journal": "Food chemistry",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.foodchem.2026.148588",
+      "pmid": "41775012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41775012/",
+      "doiUrl": "https://doi.org/10.1016/j.foodchem.2026.148588",
+      "abstract": "This study examined whether whole apple and apple pomace modulate transepithelial glucose transport and GLP-1 secretion under physiologically relevant in vitro conditions, achieved via a laboratory-implementable solubilization and purification method that doubled polyphenol concentrations without inducing cytotoxicity. Samples collected at the end of the gastric and intestinal phases represented pre- and post-intestinal chyme. Purified digesta were incubated with Caco-2 monolayers, and UHPLC-ESI",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "glp-1",
+        "glucose",
+        "appetite"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1172_jci-insight-201148",
+      "title": "Semaglutide Reduces Murine Blood Pressure Through the Vascular Smooth Muscle GLP-1 Receptor.",
+      "authors": [
+        "Kyle D Medak",
+        "Jacqueline A Koehler",
+        "Laurie L Baggio",
+        "et al."
+      ],
+      "journal": "JCI insight",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1172/jci.insight.201148",
+      "pmid": "41774502",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774502/",
+      "doiUrl": "https://doi.org/10.1172/jci.insight.201148",
+      "abstract": "GLP-1 receptor (GLP-1R) agonists decrease blood glucose and body weight and reduce rates of cardiovascular and renal disease. Although GLP-1R activation lowers blood pressure (BP), the underlying mechanisms remain incompletely understood and have been attributed to weight loss and endothelial cell GLP-1R signaling. Here, we show that GLP-1Rs in vascular smooth muscle cells (VSMCs) are essential for semaglutide-mediated BP reduction in mice. In contrast, GLP-1Rs in Tie2+ endothelial or immune cel",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "food intake",
+        "body weight",
+        "metabolism",
+        "glucose"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1007_s00018-025-06022-y",
+      "title": "Microbes, mood, and metabolism/obesity: Pharmacological insights into the gut-obesity-depression triad.",
+      "authors": [
+        "Archana Yadav",
+        "Girish C Melkani"
+      ],
+      "journal": "Cellular and molecular life sciences : CMLS",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1007/s00018-025-06022-y",
+      "pmid": "41774188",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774188/",
+      "doiUrl": "https://doi.org/10.1007/s00018-025-06022-y",
+      "abstract": null,
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "obesity",
+        "metabolism"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1007_s00441-026-04055-8",
+      "title": "Brain peptides in Alzheimer's disease - pathophysiology and therapeutic advances.",
+      "authors": [
+        "Sonu Pahal",
+        "Arushi Gupta",
+        "Vivek Kumar",
+        "et al."
+      ],
+      "journal": "Cell and tissue research",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1007/s00441-026-04055-8",
+      "pmid": "41772129",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772129/",
+      "doiUrl": "https://doi.org/10.1007/s00441-026-04055-8",
+      "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by cognitive decline, memory impairment, and hallmark neuropathological features, including extracellular amyloid-&#x3b2; (A&#x3b2;) plaques and intracellular neurofibrillary tangles formed by hyperphosphorylated tau. Peptides occupy a central position in AD pathobiology: pathogenic species such as A&#x3b2; oligomers and tau-derived fragments drive synaptic failure, mitochondrial dysfunction, and neuroinflammation",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "incretin",
+        "insulin",
+        "metabolic",
+        "liver"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-eclinm-2026-103801",
+      "title": "Dapiglutide, a dual GLP-1 and GLP-2 receptor agonist, for obesity: a randomised, double-blind, placebo-controlled parallel-group, proof-of-concept trial.",
+      "authors": [
+        "Casper K Nielsen",
+        "Thorir G P&#xe1;lsson",
+        "Julie L Forman",
+        "et al."
+      ],
+      "journal": "EClinicalMedicine",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1016/j.eclinm.2026.103801",
+      "pmid": "41768273",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41768273/",
+      "doiUrl": "https://doi.org/10.1016/j.eclinm.2026.103801",
+      "abstract": "Dapiglutide, a dual glucagon-like peptide (GLP)-1 and GLP-2 receptor agonist, is under clinical development for bodyweight reduction in obesity, capitalising on GLP-1 receptor-mediated food intake-reducing effect leading to bodyweight loss and GLP-2 receptor-mediated improvement of gut barrier function and anti-inflammatory properties. In this 12-week, investigator-initiated, phase IIa, proof-of-concept, double-blind, placebo-controlled trial in Denmark, adults (18-75 years) with obesity (BMI &#",
+      "relevance": "high",
+      "relevanceScore": 0.8,
+      "tags": [
+        "glp-1",
+        "food intake",
+        "obesity",
+        "appetite"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1111_dom-70600",
+      "title": "Sex Differences in [68Ga]Ga-NODAGA-Exendin-4 Uptake in the Pituitary of Individuals With Type 2 Diabetes.",
+      "authors": [
+        "Sevilay Tokg&#xf6;z",
+        "Marti Boss",
+        "Rick I Meijer",
+        "et al."
+      ],
+      "journal": "Diabetes, obesity &amp; metabolism",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1111/dom.70600",
+      "pmid": "41766452",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41766452/",
+      "doiUrl": "https://doi.org/10.1111/dom.70600",
+      "abstract": null,
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "diabetes"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1111_obr-70108",
+      "title": "A Systematic Review and Meta-Analysis of Semaglutide Effects on Adipose Tissue and Emerging Effects on Brain and Cognition.",
+      "authors": [
+        "Amene Saghazadeh",
+        "Mahsa Dolatshahi",
+        "Soheil Mohammadi",
+        "et al."
+      ],
+      "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+      "year": "2026",
+      "date": "2026-03-06",
+      "doi": "10.1111/obr.70108",
+      "pmid": "41766347",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41766347/",
+      "doiUrl": "https://doi.org/10.1111/obr.70108",
+      "abstract": "In 2023 and 2024, research into semaglutide (SEMA), an antiobesity and antidiabetic medication, indicated potential benefits beyond its approved uses, particularly in preventing Alzheimer's disease (AD). This highlights the link between obesity and AD development. This systematic review and meta-analysis evaluates clinical studies assessing SEMA's effects on subcutaneous and visceral adipose tissue (SAT/VAT) measures, brain function, cognitive performance through cognitive tasks, and the inciden",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "obesity",
+        "diabetic",
+        "adipose",
+        "semaglutide"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-ymthe-2026-02-041",
+      "title": "Lipidated Interleukin-22 Reduces Body Weight And Spares Lean Mass In Mice By A Novel Gut Acting Mechanism Additive To GLP-1 Agonism.",
+      "authors": [
+        "Daniela Hass",
+        "Andreas N Madsen",
+        "Patricia da Silva-Buttkus",
+        "et al."
+      ],
+      "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+      "year": "2026",
+      "date": "2026-03-01",
+      "doi": "10.1016/j.ymthe.2026.02.041",
+      "pmid": "41764072",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41764072/",
+      "doiUrl": "https://doi.org/10.1016/j.ymthe.2026.02.041",
+      "abstract": "The prevalence of metabolic diseases, including obesity and type 2 diabetes, continues to rise. Although GLP-1 receptor agonists (GLP-1RAs) now provide the first effective treatment options for patients with obesity, many still fail to reach their target weight. Interleukin (IL)-22 has emerged as a promising therapeutic due to its ability to modulate key metabolic factors. This study evaluated the potential of a novel long-acting lipidated IL-22 analogue as a complementary treatment to GLP-1RAs ",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "food intake",
+        "obesity",
+        "diabetes",
+        "insulin"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1111_dom-70551",
+      "title": "The GLP-1-miRNA network: Epigenetic control of obesity and metabolic disorders.",
+      "authors": [
+        "Shihua Zhao",
+        "Ping Qin",
+        "Xin Wang",
+        "et al."
+      ],
+      "journal": "Diabetes, obesity &amp; metabolism",
+      "year": "2026",
+      "date": "2026-02-27",
+      "doi": "10.1111/dom.70551",
+      "pmid": "41757415",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757415/",
+      "doiUrl": "https://doi.org/10.1111/dom.70551",
+      "abstract": "Glucagon-like peptide-1 (GLP-1) is a central incretin hormone with pleiotropic effects on glucose homeostasis, appetite regulation, and energy metabolism. Beyond its classical insulinotropic actions, GLP-1 enhances cardiovascular, renal, hepatic, and central nervous system (CNS) functions, thereby integrating multi-organ metabolic responses. Emerging evidence highlights the critical role of microRNAs (miRNAs) as epigenetic regulators of GLP-1 signalling, influencing receptor expression, &#x3b2;-",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "incretin",
+        "hypothalamic",
+        "energy expenditure",
+        "obesity"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-neuroscience-2026-02-033",
+      "title": "Exenatide attenuates neuroinflammation and rescues sepsis-induced depressive behavior and cognitive dysfunction in a mouse model.",
+      "authors": [
+        "Shenhai Liu",
+        "Qiao Chen",
+        "Hui Liu",
+        "et al."
+      ],
+      "journal": "Neuroscience",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1016/j.neuroscience.2026.02.033",
+      "pmid": "41747818",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41747818/",
+      "doiUrl": "https://doi.org/10.1016/j.neuroscience.2026.02.033",
+      "abstract": "Sepsis elevates the risk of depression and cognitive impairment. Glucagon-like peptide-1 (GLP-1) analogues exhibit neuroprotective potential, yet their effects on sepsis-induced depression (SID) remain unelucidated. This study explored whether exenatide (Exe) alleviates depressive-like behaviors and cognitive deficits in a murine SID model. SID mice were intraperitoneally administered exenatide (1&#xa0;mg/kg/day) or vehicle for 14&#xa0;days. Behavioral assessments included the Open Field Test, F",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "glp-1"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1096_fj-202504597R",
+      "title": "Gpr75 Deletion in Adipocytes Protects From Diet-Induced Obesity: Changes in Glucose Homeostasis and Inflammatory Responses.",
+      "authors": [
+        "Sakib Hossain",
+        "Elizabeth Villegas",
+        "Catherine Liapes",
+        "et al."
+      ],
+      "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+      "year": "2026",
+      "date": "2026-02-18",
+      "doi": "10.1096/fj.202504597R",
+      "pmid": "41707065",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41707065/",
+      "doiUrl": "https://doi.org/10.1096/fj.202504597R",
+      "abstract": "Loss of function G-protein coupled receptor 75 (GPR75) variants in humans are associated with leanness, and Gpr75 null mice are protected from diet-induced obesity (DIO). However, the mechanisms underlying this protection are largely unknown. Here, we investigated the contribution of adipocyte-derived Gpr75 to DIO. Adipocyte-specific Gpr75 knockout (adipo-Gpr75-/-) male and female mice and their wild-type (WT) littermates were placed on a high-fat diet (HFD) for 14&#x2009;weeks. Metabolic parame",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "food intake",
+        "energy expenditure",
+        "energy intake",
+        "obesity",
+        "insulin"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-diabres-2026-113155",
+      "title": "The impact of GLP-1 and incretin-based therapies on counterregulatory responses to hypoglycemia in diabetes mellitus: mechanisms and clinical implications.",
+      "authors": [
+        "Pitchai Balakumar",
+        "Noohu Abdulla Khan",
+        "Vigneshwaran Easwaran",
+        "et al."
+      ],
+      "journal": "Diabetes research and clinical practice",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1016/j.diabres.2026.113155",
+      "pmid": "41692324",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41692324/",
+      "doiUrl": "https://doi.org/10.1016/j.diabres.2026.113155",
+      "abstract": "Hypoglycemia unawareness is characterized by a reduction in autonomic and neuroglycopenic signals of hypoglycemia; therefore, it is hardly perceivable. Glucagon-like peptide-1 (GLP-1) plays a critical role in glucose metabolism. Experimental model of recurrent hypoglycemia in type 1 diabetes mellitus suggests that increased intestinal GLP-1 expression is associated with impaired counterregulatory responses. However, whether incretin-based drugs or elevated intestinal GLP-1 produce similar impair",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "incretin",
+        "diabetes",
+        "insulin",
+        "metabolism"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-molmet-2026-102327",
+      "title": "Ectopic, hepatic GLP-1R agonism enhances the weight loss efficacy of GLP-1 analogues.",
+      "authors": [
+        "Jonathan D Douros",
+        "Megan Capozzi",
+        "Aaron Novikoff",
+        "et al."
+      ],
+      "journal": "Molecular metabolism",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1016/j.molmet.2026.102327",
+      "pmid": "41654015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41654015/",
+      "doiUrl": "https://doi.org/10.1016/j.molmet.2026.102327",
+      "abstract": "Unimolecular triagonists drive substantial weight loss in patients with obesity by engaging the glucagon-like peptide 1 receptor (GLP-1R) and glucose dependent insulinotropic polypeptide receptor (GIPR) to reduce food intake (FI) and the hepatic glucagon receptor (GcgR) to enhance energy expenditure (EE). However, their development has been challenged by deleterious cardiovascular (CV) effects, including increased heart rate (HR), elongated QTc, and arrhythmia mediated by GcgR agonism. GLP-1R mo",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "food intake",
+        "energy expenditure",
+        "energy intake",
+        "obesity"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-ajp-2026-104870",
+      "title": "Molecular evidence associating GLP-1 receptor agonists and brain-derived neurotrophic factors in neurodegenerative and psychiatric disorders: A systematic review.",
+      "authors": [
+        "Tianyi Xu",
+        "Yang Jing Zheng",
+        "Sabrina Wong",
+        "et al."
+      ],
+      "journal": "Asian journal of psychiatry",
+      "year": "2026",
+      "date": "2026-02-20",
+      "doi": "10.1016/j.ajp.2026.104870",
+      "pmid": "41619567",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41619567/",
+      "doiUrl": "https://doi.org/10.1016/j.ajp.2026.104870",
+      "abstract": "A converging mechanistic theme across mental disorders involves impaired neuroplasticity and reduced brain-derived neurotrophic factor (BDNF). Glucagon-like peptide-1 receptor agonists (GLP-1RAs), used for type 2 diabetes and obesity, have shown neuroprotective potential, but whether these effects are mediated by BDNF is unclear. This systematic review synthesised molecular evidence linking GLP-1RA administration to BDNF changes and evaluated their contribution to illness progression in neurodeg",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "glp-1",
+        "obesity",
+        "diabetes",
+        "diabetic"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-bbi-2025-106251",
+      "title": "Acute peripheral versus central inhibition of insulin receptors differentially alters cytokine and blood-brain barrier responses to an inflammatory stimulus.",
+      "authors": [
+        "Tanmai Bandarupalli",
+        "Cassidy Noonan",
+        "Kim Hansen",
+        "et al."
+      ],
+      "journal": "Brain, behavior, and immunity",
+      "year": "2026",
+      "date": "2026-02-21",
+      "doi": "10.1016/j.bbi.2025.106251",
+      "pmid": "41478465",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41478465/",
+      "doiUrl": "https://doi.org/10.1016/j.bbi.2025.106251",
+      "abstract": "The blood-brain barrier (BBB)'s role in protecting the brain from exposure to harmful circulating factors has led to its disruption being implicated in neurodegenerative diseases such as vascular dementia and Alzheimer's disease. Insulin resistance, defined by an impaired response to insulin, is a common feature of metabolic disorders and neurodegenerative diseases. Importantly, individuals can possess peripheral insulin resistance independent of central insulin resistance and vice versa. States",
+      "relevance": "high",
+      "relevanceScore": 0.8,
+      "tags": [
+        "gip",
+        "diabetes",
+        "insulin",
+        "insulin resistance",
+        "ghrelin"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1152_advan-00091-2025",
+      "title": "Insights into the mechanisms of body weight control.",
+      "authors": [
+        "Sandra Pereira"
+      ],
+      "journal": "Advances in physiology education",
+      "year": "2026",
+      "date": "2026-01-09",
+      "doi": "10.1152/advan.00091.2025",
+      "pmid": "41412574",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41412574/",
+      "doiUrl": "https://doi.org/10.1152/advan.00091.2025",
+      "abstract": "Body weight plays an important role in health. Despite key findings associated with body weight control, many underlying physiological mechanisms still need to be discovered. In body weight control, the brain is the integrating center that receives information from the external and internal environments and ultimately enacts a response. Our brains seem to be wired to ensure survival because it appears that it is easier to gain weight than to lose it. In the present review, the current understand",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "glp-1",
+        "insulin",
+        "leptin",
+        "body weight"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-physbeh-2025-115207",
+      "title": "Gastrointestinal dysmotility and impaired gut peptide-satiety coupling in men with spinal cord injury.",
+      "authors": [
+        "Gary J Farkas",
+        "Paige M Cunningham",
+        "Arthur S Berg",
+        "et al."
+      ],
+      "journal": "Physiology &amp; behavior",
+      "year": "2026",
+      "date": "2026-01-10",
+      "doi": "10.1016/j.physbeh.2025.115207",
+      "pmid": "41407179",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41407179/",
+      "doiUrl": "https://doi.org/10.1016/j.physbeh.2025.115207",
+      "abstract": "Overeating associated with neurogenic obesity in chronic spinal cord injury (SCI) may reflect disruptions in gastrointestinal transit, satiety hormone responses, and appetite regulation. In this pilot study, 16 men with SCI (50 % tetraplegia) and 16 controls without SCI consumed standardized meals (195 g and 390 g) during 2 different laboratory visits. Gastrointestinal (GI) motility was measured using the SmartPill Wireless Motility Capsule during the first visit, while postprandial levels of GI",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "incretin",
+        "food intake",
+        "obesity",
+        "insulin"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-obpill-2025-100233",
+      "title": "Clinical review of how glucagon-like peptide-1 agonist obesity medications decrease sexual desire, and a biopsychosocial model for why we don't 'see' it.",
+      "authors": [
+        "Sonya T Gelfand",
+        "Meghan C Tveit",
+        "James A Simon"
+      ],
+      "journal": "Obesity pillars",
+      "year": "2025",
+      "date": "2025-12-17",
+      "doi": "10.1016/j.obpill.2025.100233",
+      "pmid": "41404471",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41404471/",
+      "doiUrl": "https://doi.org/10.1016/j.obpill.2025.100233",
+      "abstract": "While prevailing assumptions suggest that improved body image and erectile function, even in people with diabetes, associated with glucagon-like peptide-1 (GLP-1) agonist medications would correlate with heightened sexual function, there is limited literature on the effects of GLP-1 agonists on hedonistic pleasures such as sexual activity. In this paper, we aim to elucidate the potential implications of GLP-1 agonists on sexual desire by proposing a serotonergic mechanism by which GLP-1 agonists",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "glp-1",
+        "obesity",
+        "diabetes"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-diabres-2025-113055",
+      "title": "An expert narrative review on the brain-kidney axis in diabetic kidney disease: Mechanisms and therapeutic insights.",
+      "authors": [
+        "Zongrui Zhang",
+        "Rangzi Yi",
+        "Shihong Xiong",
+        "et al."
+      ],
+      "journal": "Diabetes research and clinical practice",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1016/j.diabres.2025.113055",
+      "pmid": "41401898",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41401898/",
+      "doiUrl": "https://doi.org/10.1016/j.diabres.2025.113055",
+      "abstract": "Diabetic kidney disease (DKD) is a leading cause of end-stage renal disease. Conventional research focuses on renal-intrinsic pathophysiology, yet emerging evidence reveals bidirectional neuroimmune communication along the brain-kidney axis critically modulates DKD progression. Emerging evidence reveals that bidirectional neuroimmune communication along the brain-kidney axis critically modulates DKD progression through inflammatory, cholinergic, and metabolic pathways5, yet the clinical translat",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "glp-1",
+        "diabetic",
+        "metabolic",
+        "aging"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1111_obr-70040",
+      "title": "Clinical Outcomes in the Patient With Traumatic Brain Injury and Comorbid Obesity: A Scoping Review.",
+      "authors": [
+        "Shawn R Eagle",
+        "Erin Kershaw"
+      ],
+      "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+      "year": "2026",
+      "date": "2026-02-23",
+      "doi": "10.1111/obr.70040",
+      "pmid": "41254930",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41254930/",
+      "doiUrl": "https://doi.org/10.1111/obr.70040",
+      "abstract": "Very few studies exist examining the effects of mild traumatic brain injury (mTBI) in patients with obesity, which is notable given that mTBI represents ~80% of all recorded TBIs. Given that approximately 40% of US adults have an obese body mass index (with predictions that this proportion will continue to increase), it would be prudent to focus efforts on targeted treatments for this growing subpopulation of patients with TBI. Authors have postulated that higher preinjury inflammation, as obser",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "obesity",
+        "obese"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1111_febs-70321",
+      "title": "M14 substitutions in exanatide modulate alpha-synuclein aggregation.",
+      "authors": [
+        "Venkataharsha Panuganti",
+        "Kanika Manchanda",
+        "Prasad V Bharatam",
+        "et al."
+      ],
+      "journal": "The FEBS journal",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1111/febs.70321",
+      "pmid": "41206637",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41206637/",
+      "doiUrl": "https://doi.org/10.1111/febs.70321",
+      "abstract": "Clinical and epidemiological studies suggest similarities in dysregulation of pathways in type 2 diabetes (T2DM) and Parkinson's disease (PD). Efficacy of several antidiabetic drugs has been tested in PD. Exenatide, a synthetic version of exendin-4, an incretin-mimetic drug, is an agonist of glucagon-like peptide 1 receptor (GLP1R) and is approved for the treatment of T2DM. Exenatide can cross the blood-brain barrier and exerts neuroprotective and neurorestorative effects via GLP1R at doses simi",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "incretin",
+        "diabetes",
+        "diabetic"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1080_1028415X-2025-2567415",
+      "title": "Tolerogenic probiotics and gut-brain axis: targeting pain receptors in neuroimmune disorders.",
+      "authors": [
+        "Maryam Ahmadi-Khorram",
+        "Alireza Hatami",
+        "Fatemeh Forouzanfar",
+        "et al."
+      ],
+      "journal": "Nutritional neuroscience",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1080/1028415X.2025.2567415",
+      "pmid": "41082636",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41082636/",
+      "doiUrl": "https://doi.org/10.1080/1028415X.2025.2567415",
+      "abstract": "Tolerogenic probiotics, including Lactobacillus and Bifidobacterium species, offer significant therapeutic potential for neuroimmune disorders by modulating the gut-brain axis to promote immune tolerance and reduce inflammation. These probiotics influence key cell types, such as enteroendocrine cells (EECs), intestinal epithelial cells (IECs), and enteric glial cells (EGCs), enhancing gut barrier integrity and regulating hormone secretion (e.g. GLP-1, serotonin). They also modulate pain receptor",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "glp-1",
+        "gut-brain"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1007_s11019-025-10300-8",
+      "title": "The ethics of Wegovy: promoting autonomy in pediatric care.",
+      "authors": [
+        "Nanette Ryan",
+        "Julian Savulescu"
+      ],
+      "journal": "Medicine, health care, and philosophy",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1007/s11019-025-10300-8",
+      "pmid": "41065944",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41065944/",
+      "doiUrl": "https://doi.org/10.1007/s11019-025-10300-8",
+      "abstract": "Semaglutide, marketed as Wegovy, Ozempic, and Rybelsus, is a glucagon-like peptide-1 receptor agonist (GLP-1 RA) that has attracted significant global attention for its appetite-suppressing and weight-loss effects. Approved for pediatric use in children aged 12 and older, Wegovy has been described as a \"miracle drug\" and hailed as a potential solution to the so-called \"obesity epidemic.\" However, prescribing medication to children raises complex ethical questions, including how best to respect y",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "glp-1",
+        "obesity",
+        "semaglutide",
+        "appetite"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-14670_HH-18-967",
+      "title": "The role of GIP in carbohydrate metabolism: Implications in the development of therapies for T2DM, a narrative review.",
+      "authors": [
+        "David Almorza-Gomar",
+        "Alfredo D&#xed;az-G&#xf3;mez",
+        "Francisco Visiedo",
+        "et al."
+      ],
+      "journal": "Histology and histopathology",
+      "year": "2026",
+      "date": "2026-02-06",
+      "doi": "10.14670/HH-18-967",
+      "pmid": "40755350",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40755350/",
+      "doiUrl": "https://doi.org/10.14670/HH-18-967",
+      "abstract": "For the last three decades, bariatric/metabolic surgeries have highlighted the relevance of certain gastrointestinal hormones in controlling and regulating glucose metabolism. The incretins have been a significant focus in developing therapies against Type 2 Diabetes Mellitus (T2DM). Glucagon-like peptide-1 (GLP-1) has been a primary focus in this field, leading to the development of analogues with high therapeutic potential and efficiency, such as semaglutide. However, recently another incretin",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "gip",
+        "incretin",
+        "diabetes",
+        "insulin"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-4103_NRR-NRR-D-24-00702",
+      "title": "The engineered probiotic strain Lactococcus lactis MG1363-pMG36e-GLP-1 regulates microglial polarization and gut dysbiosis in a transgenic mouse model of Parkinson's disease.",
+      "authors": [
+        "Mengyun Yue",
+        "Tingtao Chen",
+        "Wenjie Chen",
+        "et al."
+      ],
+      "journal": "Neural regeneration research",
+      "year": "2025",
+      "date": "2025-07-29",
+      "doi": "10.4103/NRR.NRR-D-24-00702",
+      "pmid": "40522767",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40522767/",
+      "doiUrl": "https://doi.org/10.4103/NRR.NRR-D-24-00702",
+      "abstract": "JOURNAL/nrgr/04.03/01300535-202603000-00044/figure1/v/2025-06-16T082406Z/r/image-tiff Parkinson's disease is characterized by synucleinopathy-associated neurodegeneration. Previous studies have shown that glucagon-like peptide-1 (GLP-1) has beneficial effects in a mouse model of Parkinson's disease induced by 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine. However, the effect of GLP-1 on intrinsic synuclein malfunction remains unclear. In this study, we investigated the effect of Lactococcus lacti",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "glp-1"
+      ],
+      "source": "PubMed: CNS incretin",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-34133_bmr-0332",
+      "title": "Chicken Embryo Extract Remodeling of Extracellular Matrix Sustains Self-Renewal and Differentiation for Scaffold-Free Cell Sheet Formation.",
+      "authors": [
+        "Jeong-Eun Lee",
+        "Jin-Ryong Park",
+        "Yoo-Kyung Kang",
+        "et al."
+      ],
+      "journal": "Biomaterials research",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.34133/bmr.0332",
+      "pmid": "41783860",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41783860/",
+      "doiUrl": "https://doi.org/10.34133/bmr.0332",
+      "abstract": "Fetal bovine serum (FBS) is commonly used in cell culture but can make up to 60% of total production costs, limiting the scalability of cultured meat (CM). Here, we investigated chicken embryo extract (CEE) as a functional and cost-effective substitute for FBS in culturing porcine muscle satellite cells and generating scaffold-free CM constructs. The 20% CEE + 5% horse serum (HS) medium enhanced myogenic cell growth and development while maintaining paired box&#xa0;7 expression and up-regulating",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "metabolism"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1093_jbmrpl_ziag017",
+      "title": "Changes in bone characteristics precede serum mineral deterioration in a mouse model of early stage chronic kidney disease.",
+      "authors": [
+        "Lieve Verlinden",
+        "Ingrid Stockmans",
+        "Karen Moermans",
+        "et al."
+      ],
+      "journal": "JBMR plus",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1093/jbmrpl/ziag017",
+      "pmid": "41783857",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41783857/",
+      "doiUrl": "https://doi.org/10.1093/jbmrpl/ziag017",
+      "abstract": "Calcium metabolism is tightly regulated and involves hormonal communication between the intestine, kidney, and bone. Renal failure leads to impaired calcium homeostasis, but how each of the calcium-handling tissues adapts during the initial phases of the disease, remains to be explored. To this end, we used Col4a3-/- mice in which CKD develops progressively, as shown by the gradually decreased glomerular filtration rate and increased uremia. Mineral homeostasis was disturbed with increased serum",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "adiposity",
+        "metabolism"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-burns-2026-107940",
+      "title": "Study on the mechanism of traditional chinese medicine compound Shixiang Plaster improving diabetic wound healing through MAPK regulation of macrophage polarization.",
+      "authors": [
+        "Shengguang Wu",
+        "Peng Liu",
+        "Lingli Wang",
+        "et al."
+      ],
+      "journal": "Burns : journal of the International Society for Burn Injuries",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.burns.2026.107940",
+      "pmid": "41775033",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41775033/",
+      "doiUrl": "https://doi.org/10.1016/j.burns.2026.107940",
+      "abstract": "The healing impairment of diabetic foot ulcers (DFU) is closely related to chronic inflammation and the imbalance of M1/M2 polarization of macrophages. This study aims to elucidate the mechanism by which the traditional Chinese medicine compound Shixiang Plaster&#xa0;(SXP) promotes wound healing in diabetes by regulating the MAPK signaling pathway and modulating macrophage polarization. A full-thickness skin defect model in streptozotocin (STZ)-induced diabetic mice was established and divided i",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "fibroblast growth factor",
+        "diabetes",
+        "diabetic"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-kint-2026-01-030",
+      "title": "Klotho in the kidney distal convolution regulates urinary Klotho excretion and kidney calcium reabsorption, but not phosphate homeostasis.",
+      "authors": [
+        "Laurent Bourqui",
+        "Adisa Trnjanin",
+        "Klaudia Kopper",
+        "et al."
+      ],
+      "journal": "Kidney international",
+      "year": "2026",
+      "date": "2026-02-27",
+      "doi": "10.1016/j.kint.2026.01.030",
+      "pmid": "41759932",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41759932/",
+      "doiUrl": "https://doi.org/10.1016/j.kint.2026.01.030",
+      "abstract": "Klotho acts as a coreceptor for the phosphaturic hormone fibroblast growth factor-23 (FGF-23) and exists in both a membrane-bound and a soluble form (sKlotho) found in blood and urine. Klotho protein is moderately expressed in kidney proximal tubule and more abundant in the distal convolution (DC), which includes the distal convoluted tubule (DCT) and connecting tubule (CNT). However, the function of Klotho in the DC, particularly its role in sKlotho release and regulation of mineral metabolism,",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "fibroblast growth factor",
+        "metabolism"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1177_11206721261427214",
+      "title": "Brain-derived neurotrophic factor in age-related macular degeneration.",
+      "authors": [
+        "Haotian Liao"
+      ],
+      "journal": "European journal of ophthalmology",
+      "year": "2026",
+      "date": "2026-02-27",
+      "doi": "10.1177/11206721261427214",
+      "pmid": "41757866",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757866/",
+      "doiUrl": "https://doi.org/10.1177/11206721261427214",
+      "abstract": "Age-related Macular Degeneration (AMD) is a leading cause of vision loss. There is no cure for AMD. Current treatments focus on preventing disease progression and preserving vision. In recent years, the role of brain-derived neurotrophic factor (BDNF) in AMD has attracted increasing attention. BDNF is widely involved in the physiology and pathophysiology of the retina. These include the development of photoreceptors during early development and synaptic communication between photoreceptors and r",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "fibroblast growth factor",
+        "aging",
+        "liver"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-phrs-2026-108152",
+      "title": "Probiotic-derived extracellular vesicles attenuate cholestatic liver damage via gut-liver axis.",
+      "authors": [
+        "Xianjiao Liu",
+        "Yanyan Wang",
+        "Andrea Abreo Medina",
+        "et al."
+      ],
+      "journal": "Pharmacological research",
+      "year": "2026",
+      "date": "2026-02-26",
+      "doi": "10.1016/j.phrs.2026.108152",
+      "pmid": "41747917",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41747917/",
+      "doiUrl": "https://doi.org/10.1016/j.phrs.2026.108152",
+      "abstract": "Gut-liver axis disturbance is the unifying pathogenesis of cholestatic liver diseases. The purpose of this study was to explore the underlying mechanisms of the probiotic Lactobacillus amylovorus (LA) and its secreted extracellular vesicles (EVs) on liver damage and fibrosis in 3,5-diethoxycarbonyl-1,4-dihydrocollidine (DDC)-fed and multidrug resistance protein 2 knockout (Mdr2-/-) mice. Direct replenishment of LA is sufficient to correct the DDC-fed and Mdr2-/--induced liver damage and fibrosis",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "fibroblast growth factor",
+        "metabolism",
+        "microbiota",
+        "liver"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-xkme-2026-101241",
+      "title": "A Large Deletion With a Large Impact: Homozygous 5,600 bp Deletion of the GALNT3 Gene Causing Hyperphosphatemic Tumoral Calcinosis.",
+      "authors": [
+        "Julia Maria Portmann",
+        "Katharina Martini",
+        "Angela Bahr",
+        "et al."
+      ],
+      "journal": "Kidney medicine",
+      "year": "2026",
+      "date": "2026-02-12",
+      "doi": "10.1016/j.xkme.2026.101241",
+      "pmid": "41675205",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41675205/",
+      "doiUrl": "https://doi.org/10.1016/j.xkme.2026.101241",
+      "abstract": "Hyperphosphatemic familial tumoral calcinosis (HTC) is a rare disease caused by autosomal recessive loss of function variants in the genes encoding fibroblast growth factor 23 (FGF-23), Klotho, or GalNAc-T3. This results in reduced phosphate excretion in the renal proximal tubule, leading to hyperphosphatemia. The clinical manifestations of HTC are mainly periarticular calcifications accompanied by pain and disability, inflammation, and dental problems. Inactive forms or reduced levels of FGF-23",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "fibroblast growth factor"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1093_jbmrpl_ziag007",
+      "title": "Effects of graded phosphate deficiency and vitamin D intervention on growth, bone metabolism, and mineralization in a rat model of neonatal-onset metabolic bone disease.",
+      "authors": [
+        "Shanshan Wu",
+        "Huifeng Zhang"
+      ],
+      "journal": "JBMR plus",
+      "year": "2026",
+      "date": "2026-02-03",
+      "doi": "10.1093/jbmrpl/ziag007",
+      "pmid": "41631203",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41631203/",
+      "doiUrl": "https://doi.org/10.1093/jbmrpl/ziag007",
+      "abstract": "To investigate the dose-dependent effects of neonatal-onset phosphate deficiency on bone growth and mineralization and assess whether supraphysiological vitamin D3 or calcitriol can rescue skeletal defects. Newborn Sprague-Dawley rats were randomly assigned to 7 diets: phosphate-free (0P), low phosphate (1/2P), normal phosphate (NP), calcium-free (0Ca), phosphate/vitamin D-free (0P/D), and 0P/D supplemented with either supraphysiological vitamin D3 (0P/D&#x2009;+&#x2009;D3) or calcitriol (0P/D&#",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "fibroblast growth factor",
+        "metabolism",
+        "metabolic"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-biopha-2026-119054",
+      "title": "The calcimimetic etelcalcetide attenuates pressure overload-induced cardiac hypertrophy in rats with and without chronic kidney disease.",
+      "authors": [
+        "Hidehisa Okamoto",
+        "Shunsuke Goto",
+        "Yuma Nose",
+        "et al."
+      ],
+      "journal": "Biomedicine &amp; pharmacotherapy = Biomedecine &amp; pharmacotherapie",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1016/j.biopha.2026.119054",
+      "pmid": "41619334",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41619334/",
+      "doiUrl": "https://doi.org/10.1016/j.biopha.2026.119054",
+      "abstract": "Calcimimetics such as etelcalcetide (ET) are used to manage secondary hyperparathyroidism patients with chronic kidney disease (CKD) on dialysis. While their cardiovascular benefits-including left ventricular hypertrophy (LVH) suppression-are recognized, the underlying mechanisms remain unclear. This study investigated how ET suppresses LVH using rat models. LVH was induced via transverse aortic coarctation, and CKD by 5/6 nephrectomy. Rats were assigned to the sham, CKD, LVH, or CKD/LVH groups,",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "fibroblast growth factor",
+        "metabolism"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1039_d5bm01314c",
+      "title": "Silk fibroin scaffolds loaded with growth factors can reverse liver fibrosis.",
+      "authors": [
+        "Jingyi Wang",
+        "Zhanbo Wang",
+        "Shuo Zhao",
+        "et al."
+      ],
+      "journal": "Biomaterials science",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1039/d5bm01314c",
+      "pmid": "41575883",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41575883/",
+      "doiUrl": "https://doi.org/10.1039/d5bm01314c",
+      "abstract": "Currently, there are no effective pharmacological interventions in clinical practice to reverse liver fibrosis. This study explores the therapeutic potential of regenerated silk fibroin (RSF) scaffolds loaded with dual growth factors for reversing hepatic fibrosis. A chronic liver fibrosis mouse model was induced using carbon tetrachloride (CCl4) combined with a high-fat diet. RSF scaffolds, with or without hepatocyte growth factor (HGF) and fibroblast growth factor-4 (FGF-4), were implanted ont",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "fibroblast growth factor",
+        "liver",
+        "hepatic"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-3892_ijmm-2026-5738",
+      "title": "Research progress on the effects of macrophage&#x2011;derived exosomes on muscle factors IGF&#x2011;1 and FGF&#x2011;2 mediating musculoskeletal crosstalk molecular signaling pathway on bone metabolism (Review).",
+      "authors": [
+        "Ruo-Mei Cui",
+        "Mai Zheng",
+        "Jian-Bin Hong",
+        "et al."
+      ],
+      "journal": "International journal of molecular medicine",
+      "year": "2026",
+      "date": "2026-01-23",
+      "doi": "10.3892/ijmm.2026.5738",
+      "pmid": "41574692",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41574692/",
+      "doiUrl": "https://doi.org/10.3892/ijmm.2026.5738",
+      "abstract": "Musculoskeletal crosstalk is essential for maintaining the balance of bone metabolism, with macrophage&#x2011;derived exosomes emerging as key regulators of this process. Exosomes, small extracellular vesicles secreted by cells, carry a variety of bioactive molecules; proteins, lipids, mRNAs and miRNAs and facilitate intercellular communication by transferring these cargos to recipient cells. Specifically, macrophage&#x2011;derived exosomes mediate muscle&#x2011;bone interactions by transferring",
+      "relevance": "high",
+      "relevanceScore": 0.8,
+      "tags": [
+        "fibroblast growth factor",
+        "insulin",
+        "metabolism",
+        "metabolic",
+        "lipid"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1152_ajpheart-00828-2025",
+      "title": "Semaglutide augments vascular proliferation and cardiac performance in a large animal model of ischemic cardiomyopathy.",
+      "authors": [
+        "Kelsey C Muir",
+        "Christopher Stone",
+        "Dwight D Harris",
+        "et al."
+      ],
+      "journal": "American journal of physiology. Heart and circulatory physiology",
+      "year": "2026",
+      "date": "2026-02-10",
+      "doi": "10.1152/ajpheart.00828.2025",
+      "pmid": "41553720",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41553720/",
+      "doiUrl": "https://doi.org/10.1152/ajpheart.00828.2025",
+      "abstract": "The search for effective adjuncts to procedural revascularization for patients with coronary artery disease (CAD) has revealed, after several successful outcomes trials, the substantial potential of glucagon-like peptide 1 (GLP-1) analogs such as semaglutide. Because this potential has not been mechanistically illuminated in the setting of CAD and metabolic syndrome, we used a large animal model to evaluate the cardiac consequences of GLP-1 receptor (GLP-1R) agonism. Sixteen Yorkshire swine, aft",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "glp-1",
+        "fibroblast growth factor",
+        "obesity",
+        "diabetes",
+        "metabolic syndrome"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-taap-2026-117717",
+      "title": "Genipin ameliorates cholestatic liver injury in Mdr2-/- mice: the role of gut microbiota modulation by its dialdehyde intermediates.",
+      "authors": [
+        "Junli Jin",
+        "Lulu Zhu",
+        "Chengjiang He",
+        "et al."
+      ],
+      "journal": "Toxicology and applied pharmacology",
+      "year": "2026",
+      "date": "2026-02-05",
+      "doi": "10.1016/j.taap.2026.117717",
+      "pmid": "41548611",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41548611/",
+      "doiUrl": "https://doi.org/10.1016/j.taap.2026.117717",
+      "abstract": "Cholestasis causes severe hepatobiliary diseases with poor prognosis and limited therapeutic drugs. Under cholestatic conditions, impairment of the bile acid (BA)-metabolizing function of gut microbiota, along with abnormal BA profiles, exacerbates disease progression. Interventions targeting the composition and function of gut microbiota represent promising strategies for alleviating cholestatic liver injury. Genipin (GP) is the aglycone of geniposide, the primary bioactive compound in the chol",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "microbiota",
+        "liver",
+        "hepatic"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-pathol-2025-10-005",
+      "title": "Anaemia and bone disease.",
+      "authors": [
+        "Karen Van",
+        "Jasna Aleksova",
+        "Phillip Wong",
+        "et al."
+      ],
+      "journal": "Pathology",
+      "year": "2026",
+      "date": "2026-02-12",
+      "doi": "10.1016/j.pathol.2025.10.005",
+      "pmid": "41526204",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41526204/",
+      "doiUrl": "https://doi.org/10.1016/j.pathol.2025.10.005",
+      "abstract": "Anaemia and bone disease commonly co-exist, particularly in chronic conditions such as haemoglobinopathies and chronic kidney disease. The effects on bone are mediated by multiple factors, including marrow expansion, iron overload, endocrine dysfunction, and disruptions in mineral metabolism. These changes compromise bone strength, increasing the risk of osteoporosis and fractures. Although therapeutic advances such as iron infusion and chelation therapy have significantly improved the managemen",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "fibroblast growth factor",
+        "metabolism"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-gendis-2025-101730",
+      "title": "Chondrogenic potential of mesenchymal progenitors from somatic and cartilage-derived iPSCs is predicted by their transcriptomic signatures.",
+      "authors": [
+        "Nazir M Khan",
+        "Thanh N Doan",
+        "Jarred M Kaiser",
+        "et al."
+      ],
+      "journal": "Genes &amp; diseases",
+      "year": "2026",
+      "date": "2026-01-06",
+      "doi": "10.1016/j.gendis.2025.101730",
+      "pmid": "41492477",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41492477/",
+      "doiUrl": "https://doi.org/10.1016/j.gendis.2025.101730",
+      "abstract": "Mesenchymal stem cells (MSCs) are widely used in regenerative therapy but face limitations like low abundance, replicative senescence, donor variability, and restricted plasticity. Induced pluripotent stem cell-derived MSCs (iMSCs) may provide an alternative, but their similarities or intrinsic differences with adult MSCs remain unknown. This study compares the chondrogenic potential of iMSCs derived from chondrocyte-specific induced pluripotent stem cells, with bone marrow-derived MSCs, adipose",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "fgfr",
+        "adipose"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-kint-2025-11-022",
+      "title": "Meta-organismal tryptophan metabolism: an appealing therapeutic target in CKD-MBD.",
+      "authors": [
+        "Guillaume Fernandes",
+        "St&#xe9;phane Burtey",
+        "Ward Zadora",
+        "et al."
+      ],
+      "journal": "Kidney international",
+      "year": "2026",
+      "date": "2026-02-21",
+      "doi": "10.1016/j.kint.2025.11.022",
+      "pmid": "41448460",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41448460/",
+      "doiUrl": "https://doi.org/10.1016/j.kint.2025.11.022",
+      "abstract": "Despite important advances over the past few decades, chronic kidney disease-mineral and bone disorder remains a major clinical therapeutic challenge. Traditional interventions targeting hyperphosphatemia, impaired vitamin D metabolism, and secondary hyperparathyroidism overall failed to meet expectations. This calls for a paradigm shift. The 2023 Madrid Chronic Kidney Disease-Mineral and Bone Disorder Kidney Disease: Improving Global Outcomes (KDIGO) controversies conference advocated a holisti",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "fibroblast growth factor",
+        "metabolism"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-bone-2025-117754",
+      "title": "Expression of proteins secreted by osteocytes in bone biopsies of patients with chronic kidney disease and iron overload, before and after treatment with deferoxamine.",
+      "authors": [
+        "Hanna Karla Andrade Guapyassu Machado",
+        "Luciene Machado Dos Reis",
+        "Lucas Acatauassu Nunes",
+        "et al."
+      ],
+      "journal": "Bone",
+      "year": "2026",
+      "date": "2026-01-14",
+      "doi": "10.1016/j.bone.2025.117754",
+      "pmid": "41352648",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41352648/",
+      "doiUrl": "https://doi.org/10.1016/j.bone.2025.117754",
+      "abstract": "Individuals with CKD can develop anemia, as well as mineral and bone disorder. Anemia is treated with recombinant erythropoietin and iron supplementation, which can result iron overload in various organs. Little is known about the effects of iron overload and its treatment on bone remodeling and osteocyte expression of relevant proteins. The objective of this study was to evaluate the effects that iron overload and treatment with the iron chelator deferoxamine have on parameters of iron metaboli",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "fibroblast growth factor",
+        "metabolism"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-jbspin-2025-105988",
+      "title": "FGF23: A player not only in bone diseases.",
+      "authors": [
+        "Am&#xe9;lie Cifuentes",
+        "Zacharie Laskar-Marchesseau",
+        "Guillaume Courbon"
+      ],
+      "journal": "Joint bone spine",
+      "year": "2026",
+      "date": "2026-03-05",
+      "doi": "10.1016/j.jbspin.2025.105988",
+      "pmid": "41062019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41062019/",
+      "doiUrl": "https://doi.org/10.1016/j.jbspin.2025.105988",
+      "abstract": "The skeleton is able to secrete hormones and mediate endocrine functions. Particularly, the fibroblast growth factor 23 (FGF23) has received considerable attention for its unique phosphaturic properties, raising the bone to the status of an essential endocrine regulator. Excess in circulating levels of FGF23, not so surprisingly, then associated to mineral imbalance, in hereditary/acquired mineral and skeletal disorders. A key player, FGF23 excess precedes mineral and skeletal disturbances. Howe",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "fibroblast growth factor",
+        "metabolism"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1093_jbmr_zjaf129",
+      "title": "Aromatase in adipose tissue exerts an osteoprotective function in male mice via phosphate regulation.",
+      "authors": [
+        "Aoi Ikedo",
+        "Michiko Yamashita",
+        "Maiko Hoshino",
+        "et al."
+      ],
+      "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1093/jbmr/zjaf129",
+      "pmid": "40973148",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40973148/",
+      "doiUrl": "https://doi.org/10.1093/jbmr/zjaf129",
+      "abstract": "Aromatase contributes to maintenance of bone mass because male patients with loss-of-function mutations of CYP19A1 exhibit bone loss. Treatment with aromatase inhibitor also causes bone loss in men and post-menopausal women, suggesting that part of the anabolic effect of testosterone in men is dependent on estradiol (E2) biosynthesized by aromatase in non-gonadal tissues. It remains unclear how locally biosynthesized E2 contributes to maintenance of bone mass. We examined the function of aromata",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "adipose"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-biomaterials-2025-123699",
+      "title": "Interrogating functional connectivity of in vitro neural glia tissue model modulated through integrative control of matrix stiffness and a neurotrophic factor.",
+      "authors": [
+        "Sehong Kang",
+        "Eun Mi Kim",
+        "Eric Burgeson",
+        "et al."
+      ],
+      "journal": "Biomaterials",
+      "year": "2025",
+      "date": "2025-11-03",
+      "doi": "10.1016/j.biomaterials.2025.123699",
+      "pmid": "40966909",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40966909/",
+      "doiUrl": "https://doi.org/10.1016/j.biomaterials.2025.123699",
+      "abstract": "Brain function emerges from intricate cellular communication within neural networks. Both In silico neuronal models and primary neuron cells have revealed that the branching architecture of individual neurons determines the bioelectrical signal propagation pattern and dynamics. However, whether stem cell-differentiated neurons can build functional connectivity regulated by neuronal morphology has yet to be determined. Here, we hypothesized that neurite length, branching, or both factors would re",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "fibroblast growth factor"
+      ],
+      "source": "PubMed: FGF metabolism (non-FGF21)",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-it-2025-12-008",
+      "title": "Secondary bile acids as immune and metabolic mediators.",
+      "authors": [
+        "Stefano Fiorucci",
+        "Michele Biagioli",
+        "Silvia Marchian&#xf2;",
+        "et al."
+      ],
+      "journal": "Trends in immunology",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1016/j.it.2025.12.008",
+      "pmid": "41781236",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41781236/",
+      "doiUrl": "https://doi.org/10.1016/j.it.2025.12.008",
+      "abstract": "Bile acids are cholesterol derivatives, generated by the coordinated intervention of human and bacterial genes, functioning as endogenous ligands for multiple transcription factors and receptors throughout the body. While only two primary bile acids are generated by the human liver, the intestinal microbiota is the source of hundreds of secondary bile acids and microbially conjugated bile acids. Secondary bile acids regulate immune function throughout the body, promote the conversion of thyroid ",
+      "relevance": "high",
+      "relevanceScore": 0.9,
+      "tags": [
+        "energy expenditure",
+        "adipose",
+        "calorie restriction",
+        "metabolic",
+        "microbiota"
+      ],
+      "source": "PubMed: Dietary restriction aging",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1186_s40168-026-02362-4",
+      "title": "Dynamics of gut bacteriophage in diversity outbred mice studied over lifespan and during extreme caloric restriction.",
+      "authors": [
+        "Carter Merenstein",
+        "Lev Litichevskiy",
+        "Christoph Thaiss",
+        "et al."
+      ],
+      "journal": "Microbiome",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1186/s40168-026-02362-4",
+      "pmid": "41772715",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772715/",
+      "doiUrl": "https://doi.org/10.1186/s40168-026-02362-4",
+      "abstract": "The majority of bacteria in the vertebrate gut harbor integrated bacterial viruses (\"bacteriophages\" or \"phages\"; integrated phage are termed \"prophages\"). To probe phage replication strategies in the mammalian gut microbiome, we investigated phage activity in a large longitudinal study of diversity outbred mice (913 animals) undergoing extreme dietary restriction with detailed phenotypic characterization across lifespan. We assembled 54,119 candidate DNA viral genomes from 2997 longitudinal met",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "caloric restriction",
+        "dietary restriction",
+        "microbiome",
+        "aging",
+        "lifespan"
+      ],
+      "source": "PubMed: Dietary restriction aging",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1093_gerona_glag061",
+      "title": "Caloric Restriction and Time-Restricted Eating in Older Adults with Overweight or Obesity: The Health, Aging, and Later-Life Outcomes Pilot Study.",
+      "authors": [
+        "Denise K Houston",
+        "Jason Fanning",
+        "Barbara J Nicklas",
+        "et al."
+      ],
+      "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+      "year": "2026",
+      "date": "2026-03-02",
+      "doi": "10.1093/gerona/glag061",
+      "pmid": "41766355",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41766355/",
+      "doiUrl": "https://doi.org/10.1093/gerona/glag061",
+      "abstract": "In animal models, caloric restriction (CR) and time-restricted eating (TRE) extend lifespan and healthspan; however, the long-term benefits in humans are unknown. The goal of the Health, Aging and Later-Life Outcomes Pilot (HALLO-P) was to inform the design of a definitive trial to evaluate the long-term effects of CR and TRE in older adults with overweight or obesity. HALLO-P randomized 90 older (&#x2265;60 yrs) adults with obesity or overweight to one of three 9-month interventions: 1) 20% CR ",
+      "relevance": "high",
+      "relevanceScore": 0.9,
+      "tags": [
+        "obesity",
+        "caloric restriction",
+        "time-restricted",
+        "metabolic",
+        "glucose"
+      ],
+      "source": "PubMed: Dietary restriction aging",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1098_rsbl-2025-0651",
+      "title": "No evidence for squaring the survival curve: lifespan-extending treatments increase variation in age- at-death.",
+      "authors": [
+        "Tahlia L Fulton",
+        "Erin L Macartney",
+        "Alistair M Senior"
+      ],
+      "journal": "Biology letters",
+      "year": "2026",
+      "date": "2026-03-06",
+      "doi": "10.1098/rsbl.2025.0651",
+      "pmid": "41759197",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41759197/",
+      "doiUrl": "https://doi.org/10.1098/rsbl.2025.0651",
+      "abstract": "Geroscience has the goal of extending lifespan through geroprotective interventions. These interventions are typically imparted on groups of individuals, with their efficacy judged by increases in the average age-at-death. A more equitable outcome, which looks beyond the average, is to attain a long life for all individuals, such that the average age-at-death is high while variability (e.g. standard deviation in age-at-death) is low. This goal of increasing the mean while reducing variation is s",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "dietary restriction",
+        "lifespan"
+      ],
+      "source": "PubMed: Dietary restriction aging",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-ajcnut-2025-101182",
+      "title": "Diet quality and nutritional adequacy during a 2-year calorie restriction intervention: the Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy 2 trial.",
+      "authors": [
+        "Susan B Racette",
+        "Rachel E Silver",
+        "Valene Garr Barry",
+        "et al."
+      ],
+      "journal": "The American journal of clinical nutrition",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1016/j.ajcnut.2025.101182",
+      "pmid": "41475553",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41475553/",
+      "doiUrl": "https://doi.org/10.1016/j.ajcnut.2025.101182",
+      "abstract": "Comprehensive Assessment of Long-Term Effects of Reducing Intake of Energy (CALERIE) was the first randomized controlled trial of calorie restriction (CR) on biomarkers of aging and cardiometabolic health in humans without obesity. The aim of this secondary data analysis was to evaluate diet quality and nutritional adequacy during a 2-y CR intervention among healthy adults in the CALERIE trial. CALERIE 2 was a multisite trial of healthy adults randomly assigned to 2 y of 25% CR or an ad libitum ",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "obesity",
+        "calorie restriction",
+        "metabolic",
+        "aging",
+        "healthspan"
+      ],
+      "source": "PubMed: Dietary restriction aging",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1515_revneuro-2025-0096",
+      "title": "The versatile and multifacetic role of astrocytes in response to ketogenic interventions.",
+      "authors": [
+        "Perla Coronado-Monroy",
+        "Lourdes Massieu"
+      ],
+      "journal": "Reviews in the neurosciences",
+      "year": "2026",
+      "date": "2026-02-16",
+      "doi": "10.1515/revneuro-2025-0096",
+      "pmid": "41364708",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41364708/",
+      "doiUrl": "https://doi.org/10.1515/revneuro-2025-0096",
+      "abstract": "Ketone therapies refer to metabolic interventions aimed to elevate circulating levels of ketone bodies (KB), either through direct supplementation or stimulating endogenous production via medium-chain fatty acids intake, ketogenic diets, caloric restriction, intermittent fasting, or exercise. These strategies have gained attention as potential treatments for neurodegenerative diseases by preserving neuronal function, improving metabolic efficiency, and enhancing cellular resilience to stress. KB",
+      "relevance": "high",
+      "relevanceScore": 0.7,
+      "tags": [
+        "caloric restriction",
+        "intermittent fasting",
+        "fasting",
+        "metabolism",
+        "metabolic"
+      ],
+      "source": "PubMed: Dietary restriction aging",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-neurobiolaging-2025-11-007",
+      "title": "Time-restricted feeding rescues sociability deficits and reduces neuroinflammation in aged mice.",
+      "authors": [
+        "Louise M Ince",
+        "Brandy N Routh",
+        "Jeffrey S Darling",
+        "et al."
+      ],
+      "journal": "Neurobiology of aging",
+      "year": "2026",
+      "date": "2026-01-01",
+      "doi": "10.1016/j.neurobiolaging.2025.11.007",
+      "pmid": "41337822",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41337822/",
+      "doiUrl": "https://doi.org/10.1016/j.neurobiolaging.2025.11.007",
+      "abstract": "The aging brain exhibits an increased inflammatory potential which in turn elicits behavioral changes e.g., social withdrawal. Social isolation is a risk factor for additional health complications, and interventions which can mitigate these negative facets of aging can improve longevity and quality of life in old age. The circadian system critically regulates neuroimmune function and behavior, but circadian rhythms also degrade with age, resulting in lower amplitude oscillations in activity and ",
+      "relevance": "medium",
+      "relevanceScore": 0.5,
+      "tags": [
+        "time-restricted",
+        "metabolic",
+        "glucose",
+        "aging",
+        "longevity"
+      ],
+      "source": "PubMed: Dietary restriction aging",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1111_febs-70480",
+      "title": "GCN2 in proteostasis: structural logic, signalling networks and disease.",
+      "authors": [
+        "JiaYi Zhu",
+        "Stefan J Marciniak"
+      ],
+      "journal": "The FEBS journal",
+      "year": "2026",
+      "date": "2026-03-04",
+      "doi": "10.1111/febs.70480",
+      "pmid": "41782119",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41782119/",
+      "doiUrl": "https://doi.org/10.1111/febs.70480",
+      "abstract": "Proteostasis is the finely tuned balance of protein synthesis, folding and degradation essential for cellular health. When this equilibrium is disrupted, misfolded proteins accumulate, triggering adaptive stress responses such as the unfolded protein response and the integrated stress response (ISR). Central to the ISR is the kinase GCN2, a sensor of amino acid deprivation and ribosomal stress. Upon activation, GCN2 phosphorylates eIF2&#x3b1;, dampening global translation while selectively enhan",
+      "relevance": "high",
+      "relevanceScore": 0.6,
+      "tags": [
+        "gcn2",
+        "metabolism",
+        "metabolic",
+        "integrated stress response"
+      ],
+      "source": "PubMed: Amino acid sensing",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-cell-2026-01-028",
+      "title": "Citrate clearance is a major function of aconitase 2 in the canonical TCA cycle.",
+      "authors": [
+        "Abigail Xie",
+        "Julia S Brunner",
+        "Sangita Chakraborty",
+        "et al."
+      ],
+      "journal": "Cell",
+      "year": "2026",
+      "date": "2026-02-28",
+      "doi": "10.1016/j.cell.2026.01.028",
+      "pmid": "41763199",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41763199/",
+      "doiUrl": "https://doi.org/10.1016/j.cell.2026.01.028",
+      "abstract": "The tricarboxylic acid (TCA) cycle couples nutrient oxidation with the generation of reducing equivalents that power oxidative phosphorylation. Nevertheless, the requirement for components of the TCA cycle is context-specific, raising the question of which TCA cycle outputs support cell fitness. Here, we demonstrate that citrate clearance is an essential function of the TCA cycle. As citrate production increases, so do TCA cycle activity and dependence upon aconitase 2 (ACO2), the enzyme that in",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "metabolic",
+        "integrated stress response"
+      ],
+      "source": "PubMed: Amino acid sensing",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-redox-2025-103988",
+      "title": "Amino acid restriction sensitizes lung cancer cells to ferroptosis via GCN2-dependent activation of the integrated stress response.",
+      "authors": [
+        "Viktor Antonsson Garellick",
+        "Nadia Gul",
+        "Parvin Horrieh",
+        "et al."
+      ],
+      "journal": "Redox biology",
+      "year": "2026",
+      "date": "2026-02-16",
+      "doi": "10.1016/j.redox.2025.103988",
+      "pmid": "41529526",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41529526/",
+      "doiUrl": "https://doi.org/10.1016/j.redox.2025.103988",
+      "abstract": "Lung cancer cells are vulnerable to iron-dependent oxidation of phospholipids leading to ferroptosis, a process countered by glutathione peroxidase-4 that converts lipid hydroperoxides to lipid alcohols using glutathione as reducing agent. Since ferroptosis-inducing agents are in clinical development, identifying modifiers of ferroptosis susceptibility is warranted. Here, we investigate the impact of amino acids on susceptibility to buthionine sulfoximine (BSO), a glutamate-cysteine ligase inhib",
+      "relevance": "high",
+      "relevanceScore": 0.9,
+      "tags": [
+        "amino acid restriction",
+        "gcn2",
+        "metabolism",
+        "lipid",
+        "integrated stress response"
+      ],
+      "source": "PubMed: Amino acid sensing",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-canlet-2026-218245",
+      "title": "The clinically available supplement pyruvate enhances the therapeutic effect of bortezomib in Multiple Myeloma by modulating mitochondrial metabolism.",
+      "authors": [
+        "Chenggong Tu",
+        "Arne Van der Vreken",
+        "Sylvia Faict",
+        "et al."
+      ],
+      "journal": "Cancer letters",
+      "year": "2026",
+      "date": "2026-02-06",
+      "doi": "10.1016/j.canlet.2026.218245",
+      "pmid": "41513030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41513030/",
+      "doiUrl": "https://doi.org/10.1016/j.canlet.2026.218245",
+      "abstract": "Multiple myeloma (MM) is a hematological malignancy characterized by plasma cells residing in the bone marrow. Despite advancements in treatment, including proteasome inhibitors (PIs) such as bortezomib (Bz), drug resistance remains a major challenge. Metabolic reprogramming supports MM survival and drug resistance, with mitochondria emerging as promising therapeutic targets through their control of OXPHOS and mitochondrial reactive oxygen species (Mito-ROS). Using metabolic flux analyses, flow ",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "metabolism",
+        "metabolic",
+        "integrated stress response"
+      ],
+      "source": "PubMed: Amino acid sensing",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-26508_lsa-202503523",
+      "title": "The Janus framework of the integrated stress response: from homeostasis to maladaptation.",
+      "authors": [
+        "Dogus M Altintas",
+        "Marina Cerqua",
+        "Paolo M Comoglio",
+        "et al."
+      ],
+      "journal": "Life science alliance",
+      "year": "2025",
+      "date": "2025-12-29",
+      "doi": "10.26508/lsa.202503523",
+      "pmid": "41461564",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41461564/",
+      "doiUrl": "https://doi.org/10.26508/lsa.202503523",
+      "abstract": "Every cell must adapt to environmental changes. When nutrients decrease, oxygen levels fall, or protein synthesis outpaces resources, cells activate stress pathways to restore balance. Among these, the integrated stress response (ISR) stands out for its capability to integrate diverse stress signals into a unified translational output. By temporarily slowing global protein synthesis while maintaining the selective translation of stress-adaptive factors, the ISR saves energy, redirects metabolism",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "metabolism",
+        "metabolic",
+        "integrated stress response"
+      ],
+      "source": "PubMed: Amino acid sensing",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-neuropharm-2026-110888",
+      "title": "Sex-specific responses on alcohol intake in rodents following sCT infusion in the middle part of the paraventricular nucleus of the thalamus.",
+      "authors": [
+        "Cajsa Aran&#xe4;s",
+        "Antonia Caffrey",
+        "Christian E Edvardsson",
+        "et al."
+      ],
+      "journal": "Neuropharmacology",
+      "year": "2026",
+      "date": "2026-03-03",
+      "doi": "10.1016/j.neuropharm.2026.110888",
+      "pmid": "41763298",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41763298/",
+      "doiUrl": "https://doi.org/10.1016/j.neuropharm.2026.110888",
+      "abstract": "Long-term alcohol consumption contributes to the development of alcohol use disorder (AUD), a complex disorder with multifaceted neurobiological underpinnings. One of these is appetite-regulatory peptides, such as amylin, where activation of the amylin receptor (AMYR) suppresses alcohol-related behaviours in rodents. Earlier research has pinpointed AMYR in the nucleus accumbens (NAc) as central for this interaction, where other brain regions most likely participate. One of these might be the mid",
+      "relevance": "medium",
+      "relevanceScore": 0.4,
+      "tags": [
+        "paraventricular nucleus",
+        "appetite"
+      ],
+      "source": "PubMed: Gut-brain axis",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1016_j-yhbeh-2026-105905",
+      "title": "Central liver-expressed antimicrobial peptide 2 induces anxiety- and depression-related behaviors and activates the hypothalamic-pituitary-adrenal axis in male mice.",
+      "authors": [
+        "Maximilian Tufvesson-Alm",
+        "Elisabet Jerlhag"
+      ],
+      "journal": "Hormones and behavior",
+      "year": "2026",
+      "date": "2026-02-26",
+      "doi": "10.1016/j.yhbeh.2026.105905",
+      "pmid": "41747667",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41747667/",
+      "doiUrl": "https://doi.org/10.1016/j.yhbeh.2026.105905",
+      "abstract": "The ghrelinergic system is a key regulator of feeding and metabolism. Beyond this, the ghrelinergic system has been implicated for reward, anxiety and depression. In this regard, the effects of the endogenous ghrelin receptor inverse agonist liver-expressed antimicrobial peptide (LEAP) 2 on mental health parameters are unknown. In the present study, the aim was to delineate LEAP2's central effects on anxiety- and depressive-like behaviors in mice, as well as downstream central monoaminergic sign",
+      "relevance": "high",
+      "relevanceScore": 1,
+      "tags": [
+        "hypothalamus",
+        "hypothalamic",
+        "ventral tegmental area",
+        "obesity",
+        "ghrelin"
+      ],
+      "source": "PubMed: Gut-brain axis",
+      "addedDate": "2026-03-06"
+    },
+    {
+      "id": "10-1152_physiol-00016-2025",
+      "title": "The Role of the Gut-Brain Axis in Diseases.",
+      "authors": [
+        "Jing Chen",
+        "Yijia Xu",
+        "Peng Cao"
+      ],
+      "journal": "Physiology (Bethesda, Md.)",
+      "year": "2026",
+      "date": "2026-01-02",
+      "doi": "10.1152/physiol.00016.2025",
+      "pmid": "40828621",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40828621/",
+      "doiUrl": "https://doi.org/10.1152/physiol.00016.2025",
+      "abstract": "Accumulating evidence highlights the crucial role of the gut-brain axis in diseases. This bidirectional signaling connects the gastrointestinal tract (GI) and the brain via neural, immune, and endocrine pathways, orchestrating a range of physiological processes. Dysregulation of the gut-brain axis has been related to a variety of neuropsychiatric, neurodegenerative, and neurodevelopmental disorders, as well as to disturbances in emotional regulation, cognition, and feeding-related conditions. Th",
+      "relevance": "medium",
+      "relevanceScore": 0.3,
+      "tags": [
+        "gut-brain"
+      ],
+      "source": "PubMed: Gut-brain axis",
+      "addedDate": "2026-03-06"
+    },
     {
       "id": "10-1016_j-cmet-2026-01-006",
       "title": "Potential roles of unmeasured spectra and light’s frequency-dependent neural modulation in daylight-mediated metabolic improvements",
