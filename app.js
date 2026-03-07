@@ -14,21 +14,33 @@ async function init() {
   renderPapers(allPapers);
   renderDownloadBar();
 
-  // Single persistent checkbox listener on the container
   document.getElementById('papers').addEventListener('change', e => {
     if (e.target.classList.contains('paper-checkbox')) {
       togglePaper(e.target.dataset.pmid, e.target.checked);
     }
   });
+
+  // Delegated click for "Why this?" toggles
+  document.getElementById('papers').addEventListener('click', e => {
+    const btn = e.target.closest('.why-btn');
+    if (!btn) return;
+    const wrap = btn.closest('.why-wrap');
+    const text = wrap.querySelector('.why-text');
+    const expanded = text.classList.toggle('hidden');
+    btn.textContent = expanded ? 'Why this? ▾' : 'Why this? ▴';
+  });
 }
 
 function renderMeta(data) {
   const el = document.getElementById('meta');
-  const count = (data.papers || []).length;
+  const papers = data.papers || [];
+  const count = papers.length;
+  const aiScored = papers.filter(p => p.sonnetRelevance != null).length;
   const updated = data.updated ? new Date(data.updated).toLocaleDateString('en-US', {
     year: 'numeric', month: 'long', day: 'numeric'
   }) : '—';
-  el.innerHTML = `<strong>${count}</strong> papers &nbsp;·&nbsp; Updated ${updated}`;
+  const aiNote = aiScored > 0 ? ` &nbsp;·&nbsp; <span class="ai-badge">🤖 ${aiScored} AI-scored</span>` : '';
+  el.innerHTML = `<strong>${count}</strong> papers &nbsp;·&nbsp; Updated ${updated}${aiNote}`;
 }
 
 function renderFilters(papers) {
@@ -69,7 +81,6 @@ function renderDownloadBar() {
       <button class="bar-btn primary" id="ris-btn">⬇ Download RIS</button>
     </div>`;
   document.body.appendChild(bar);
-
   document.getElementById('ris-btn').addEventListener('click', downloadRIS);
   document.getElementById('clear-btn').addEventListener('click', clearSelection);
 }
@@ -111,34 +122,38 @@ function downloadRIS() {
 
 function toRIS(p) {
   const lines = ['TY  - JOUR'];
-  if (p.title)   lines.push(`TI  - ${p.title}`);
+  if (p.title)    lines.push(`TI  - ${p.title}`);
   (p.authors || []).forEach(a => lines.push(`AU  - ${a}`));
-  if (p.journal)   lines.push(`JO  - ${p.journal}`);
-  if (p.published) lines.push(`PY  - ${p.published.slice(0, 4)}`);
-  if (p.published) lines.push(`DA  - ${p.published}`);
-  if (p.abstract)  lines.push(`AB  - ${p.abstract}`);
-  if (p.doi)       lines.push(`DO  - ${p.doi}`);
-  if (p.pmid)      lines.push(`AN  - ${p.pmid}`);
-  if (p.pmid)      lines.push(`UR  - https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`);
+  if (p.journal)  lines.push(`JO  - ${p.journal}`);
+  if (p.date)     lines.push(`PY  - ${p.date.slice(0, 4)}`);
+  if (p.date)     lines.push(`DA  - ${p.date}`);
+  if (p.abstract) lines.push(`AB  - ${p.abstract}`);
+  if (p.doi)      lines.push(`DO  - ${p.doi}`);
+  if (p.pmid)     lines.push(`AN  - ${p.pmid}`);
+  if (p.pmid)     lines.push(`UR  - https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`);
   lines.push('ER  - ');
   return lines.join('\n');
 }
 
+// ── Sorting & grouping ────────────────────────────────────────────────────────
+
 const RELEVANCE_ORDER = { high: 0, medium: 1, low: 2 };
 
-function sortByRelevance(papers) {
+function sortAiScored(papers) {
+  return [...papers].sort((a, b) => (b.sonnetCombined || 0) - (a.sonnetCombined || 0));
+}
+
+function sortKeyword(papers) {
   return [...papers].sort((a, b) => {
     const ra = RELEVANCE_ORDER[a.relevance] ?? 2;
     const rb = RELEVANCE_ORDER[b.relevance] ?? 2;
     if (ra !== rb) return ra - rb;
-    // Within same tier: newest first
     return (b.date || '').localeCompare(a.date || '');
   });
 }
 
 function renderPapers(papers) {
   const container = document.getElementById('papers');
-  papers = sortByRelevance(papers);
   const empty = document.getElementById('empty');
 
   if (!papers.length) {
@@ -148,58 +163,118 @@ function renderPapers(papers) {
   }
 
   empty.classList.add('hidden');
-  container.innerHTML = papers.map(p => paperCard(p)).join('');
 
-  // Restore checked state after re-render
+  const aiScored   = papers.filter(p => p.sonnetRelevance != null);
+  const keywordOnly = papers.filter(p => p.sonnetRelevance == null);
+  const wildcards  = aiScored.filter(p => p.isWildcard);
+  const mainAi     = aiScored.filter(p => !p.isWildcard);
+
+  let html = '';
+
+  if (aiScored.length > 0) {
+    // AI-scored section
+    if (mainAi.length > 0) {
+      html += sectionHeader('AI-Scored', `${mainAi.length} papers ranked by relevance &amp; surprise`);
+      html += sortAiScored(mainAi).map(p => paperCard(p)).join('');
+    }
+    if (wildcards.length > 0) {
+      html += sectionHeader('🃏 Wild Cards', 'High surprise — unexpected but potentially interesting');
+      html += sortAiScored(wildcards).map(p => paperCard(p)).join('');
+    }
+    if (keywordOnly.length > 0) {
+      html += sectionHeader('Keyword-Matched', `${keywordOnly.length} additional papers — keyword scoring`);
+      html += sortKeyword(keywordOnly).map(p => paperCard(p)).join('');
+    }
+  } else {
+    // No AI scoring — flat list
+    html += sortKeyword(papers).map(p => paperCard(p)).join('');
+  }
+
+  container.innerHTML = html;
+
+  // Restore checkbox state
   container.querySelectorAll('.paper-checkbox').forEach(cb => {
     const pmid = cb.dataset.pmid;
     cb.checked = selectedPmids.has(pmid);
     if (cb.checked) cb.closest('.paper-card').classList.add('selected');
   });
-
-  // (checkbox changes handled by delegated listener in init)
 }
+
+function sectionHeader(title, subtitle) {
+  return `
+<div class="section-header">
+  <h3 class="section-title">${title}</h3>
+  ${subtitle ? `<span class="section-sub">${subtitle}</span>` : ''}
+</div>`;
+}
+
+// ── Paper card ─────────────────────────────────────────────────────────────────
 
 function paperCard(p) {
   const rel = (p.relevance || 'medium').toLowerCase();
-  const relLabel = rel.charAt(0).toUpperCase() + rel.slice(1);
   const authors = Array.isArray(p.authors) ? p.authors.join(', ') : (p.authors || '');
   const shortAuthors = authors.length > 80 ? authors.slice(0, 80) + '…' : authors;
   const tags = (p.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('');
-  const pmidLink = p.doi
+
+  const doiLink = p.doi
     ? `<a class="pmid-link" href="https://doi.org/${p.doi}" target="_blank" rel="noopener">DOI ↗</a>`
     : (p.pmid
-      ? `<a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank" rel="noopener">PMID ${p.pmid} ↗</a>`
+      ? `<a class="pmid-link" href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank" rel="noopener">PubMed ↗</a>`
       : '');
+
   const titleHtml = p.pmid
     ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/" target="_blank" rel="noopener">${esc(p.title)}</a>`
     : (p.doi
       ? `<a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">${esc(p.title)}</a>`
       : esc(p.title));
 
-  const dateStr = p.published ? new Date(p.published).toLocaleDateString('en-US', {
-    year: 'numeric', month: 'short', day: 'numeric'
+  const dateStr = p.date ? new Date(p.date + 'T00:00:00').toLocaleDateString('en-US', {
+    year: 'numeric', month: 'short'
   }) : '';
 
+  // AI score row
+  const hasAiScore = p.sonnetRelevance != null;
+  const scoreRow = hasAiScore ? `
+<div class="score-row">
+  <span class="score-pill relevance-score" title="Relevance to your research (1–10)">R ${p.sonnetRelevance.toFixed(1)}</span>
+  <span class="score-pill surprise-score" title="Surprise factor — unexpected angle (1–10)">S ${p.sonnetSurprise.toFixed(1)}</span>
+  ${p.isWildcard ? '<span class="wildcard-tag">🃏 Wild card</span>' : ''}
+</div>` : '';
+
+  // Body: prefer AI summary, fall back to abstract
+  const bodyText = p.aiSummary || p.abstract || '';
+  const body = bodyText
+    ? `<p class="paper-abstract">${esc(bodyText)}</p>`
+    : '';
+
+  // "Why this?" expandable
+  const whySection = p.whyItMatters ? `
+<div class="why-wrap">
+  <button class="why-btn" aria-expanded="false">Why this? ▾</button>
+  <p class="why-text hidden">${esc(p.whyItMatters)}</p>
+</div>` : '';
+
   return `
-<article class="paper-card" data-pmid="${esc(p.pmid || '')}">
+<article class="paper-card${p.isWildcard ? ' wildcard' : ''}" data-pmid="${esc(p.pmid || p.doi || '')}">
   <div class="card-top">
     <label class="checkbox-wrap" title="Select for RIS download">
-      <input type="checkbox" class="paper-checkbox" data-pmid="${esc(p.pmid || '')}">
+      <input type="checkbox" class="paper-checkbox" data-pmid="${esc(p.pmid || p.doi || '')}">
       <span class="checkmark"></span>
     </label>
     <h2 class="paper-title">${titleHtml}</h2>
-    <span class="relevance-badge relevance-${rel}">${relLabel}</span>
+    <span class="relevance-badge relevance-${rel}">${rel}</span>
   </div>
+  ${scoreRow}
   <p class="paper-meta">
     <span class="authors">${esc(shortAuthors)}</span>
     ${p.journal ? `&nbsp;·&nbsp; <span class="journal">${esc(p.journal)}</span>` : ''}
     ${dateStr ? `&nbsp;·&nbsp; ${dateStr}` : ''}
   </p>
-  ${p.abstract ? `<p class="paper-abstract">${esc(p.abstract)}</p>` : ''}
+  ${body}
+  ${whySection}
   <div class="card-footer">
     <div class="tags">${tags}</div>
-    ${pmidLink}
+    ${doiLink}
   </div>
 </article>`;
 }
@@ -224,5 +299,6 @@ if (toggleBtn && filtersEl) {
   toggleBtn.addEventListener('click', () => {
     const open = filtersEl.classList.toggle('open');
     toggleBtn.setAttribute('aria-expanded', open);
+    toggleBtn.querySelector('.toggle-arrow').textContent = open ? '▴' : '▾';
   });
 }

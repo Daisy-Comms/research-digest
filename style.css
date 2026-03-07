@@ -346,6 +346,117 @@ main {
   color: var(--text);
 }
 
+/* ── Section headers ── */
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.section-header:first-child {
+  margin-top: 0;
+}
+
+.section-title {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.section-sub {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+/* ── AI score row ── */
+.score-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.score-pill {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  letter-spacing: 0.03em;
+  cursor: default;
+}
+
+.relevance-score {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.surprise-score {
+  background: #fdf4ff;
+  color: #7e22ce;
+}
+
+.wildcard-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #b45309;
+  background: #fffbeb;
+  border: 1px solid #fcd34d;
+  border-radius: 999px;
+  padding: 0.15rem 0.5rem;
+}
+
+/* ── Wild card card border ── */
+.paper-card.wildcard {
+  border-left: 3px solid #f59e0b;
+}
+
+/* ── Why this? expandable ── */
+.why-wrap {
+  margin: 0.4rem 0 0.6rem;
+}
+
+.why-btn {
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.why-btn:hover {
+  opacity: 0.75;
+}
+
+.why-text {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 0.4rem;
+  padding: 0.6rem 0.85rem;
+  background: var(--accent-light);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+}
+
+/* ── AI badge in meta ── */
+.ai-badge {
+  font-size: 0.72rem;
+  background: #fdf4ff;
+  color: #7e22ce;
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+  font-weight: 500;
+}
+
 /* ── Empty state ── */
 .empty {
   text-align: center;
