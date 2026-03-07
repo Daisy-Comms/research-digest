@@ -3,8 +3,12 @@
 let allPapers = [];
 let activeFilter = 'All';
 let selectedPmids = new Set();
+let isAdmin = false;
 
 async function init() {
+  // Check admin cookie
+  isAdmin = document.cookie.split(';').some(c => c.trim().startsWith('digest-admin='));
+
   const res = await fetch('data/papers.json');
   const data = await res.json();
   allPapers = data.papers || [];
@@ -12,22 +16,103 @@ async function init() {
   renderMeta(data);
   renderFilters(data.papers);
   renderPapers(allPapers);
-  renderDownloadBar();
 
+  if (isAdmin) {
+    document.body.classList.add('admin-mode');
+    renderDownloadBar();
+    const loginBtn = document.getElementById('admin-login-btn');
+    loginBtn.textContent = '🔓';
+    loginBtn.title = 'Logged in as admin — click to logout';
+  }
+
+  // Delegated checkbox listener (admin only)
   document.getElementById('papers').addEventListener('change', e => {
+    if (!isAdmin) return;
     if (e.target.classList.contains('paper-checkbox')) {
       togglePaper(e.target.dataset.pmid, e.target.checked);
     }
   });
 
-  // Delegated click for "Why this?" toggles
+  // Delegated "Why this?" toggle
   document.getElementById('papers').addEventListener('click', e => {
     const btn = e.target.closest('.why-btn');
     if (!btn) return;
     const wrap = btn.closest('.why-wrap');
     const text = wrap.querySelector('.why-text');
-    const expanded = text.classList.toggle('hidden');
-    btn.textContent = expanded ? 'Why this? ▾' : 'Why this? ▴';
+    const isHidden = text.classList.toggle('hidden');
+    btn.textContent = isHidden ? 'Why this? ▾' : 'Why this? ▴';
+  });
+
+  // Delegated "Full summary" toggle
+  document.getElementById('papers').addEventListener('click', e => {
+    const btn = e.target.closest('.summary-toggle');
+    if (!btn) return;
+    const wrap = btn.closest('.summary-wrap');
+    const text = wrap.querySelector('.summary-content');
+    const isHidden = text.classList.toggle('hidden');
+    btn.textContent = isHidden ? 'Read summary ▾' : 'Hide summary ▴';
+  });
+
+  // Login modal
+  setupLoginModal();
+}
+
+// ── Auth ───────────────────────────────────────────────────────────────────────
+
+function setupLoginModal() {
+  const loginBtn = document.getElementById('admin-login-btn');
+  const modal = document.getElementById('login-modal');
+  const form = document.getElementById('login-form');
+  const cancel = document.getElementById('login-cancel');
+  const pwInput = document.getElementById('login-password');
+  const errEl = document.getElementById('login-error');
+
+  loginBtn.addEventListener('click', () => {
+    if (isAdmin) {
+      // Logout
+      fetch('/api/logout', { method: 'POST' }).then(() => location.reload());
+    } else {
+      modal.classList.remove('hidden');
+      pwInput.focus();
+    }
+  });
+
+  cancel.addEventListener('click', () => {
+    modal.classList.add('hidden');
+    errEl.classList.add('hidden');
+    pwInput.value = '';
+  });
+
+  modal.addEventListener('click', e => {
+    if (e.target === modal) {
+      modal.classList.add('hidden');
+      errEl.classList.add('hidden');
+      pwInput.value = '';
+    }
+  });
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    errEl.classList.add('hidden');
+    const password = pwInput.value;
+
+    try {
+      const res = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password })
+      });
+      if (res.ok) {
+        location.reload();
+      } else {
+        errEl.classList.remove('hidden');
+        pwInput.value = '';
+        pwInput.focus();
+      }
+    } catch {
+      errEl.textContent = 'Connection error';
+      errEl.classList.remove('hidden');
+    }
   });
 }
 
@@ -36,11 +121,14 @@ function renderMeta(data) {
   const papers = data.papers || [];
   const count = papers.length;
   const aiScored = papers.filter(p => p.sonnetRelevance != null).length;
+  const summarized = papers.filter(p => p.fullSummary).length;
   const updated = data.updated ? new Date(data.updated).toLocaleDateString('en-US', {
     year: 'numeric', month: 'long', day: 'numeric'
   }) : '—';
-  const aiNote = aiScored > 0 ? ` &nbsp;·&nbsp; <span class="ai-badge">🤖 ${aiScored} AI-scored</span>` : '';
-  el.innerHTML = `<strong>${count}</strong> papers &nbsp;·&nbsp; Updated ${updated}${aiNote}`;
+  let html = `<strong>${count}</strong> papers &nbsp;·&nbsp; Updated ${updated}`;
+  if (aiScored > 0) html += ` &nbsp;·&nbsp; <span class="ai-badge">🤖 ${aiScored} AI-scored</span>`;
+  if (summarized > 0) html += ` &nbsp;·&nbsp; <span class="summary-badge">📄 ${summarized} summarized</span>`;
+  el.innerHTML = html;
 }
 
 function renderFilters(papers) {
@@ -79,14 +167,17 @@ function renderDownloadBar() {
     <div class="bar-actions">
       <button class="bar-btn secondary" id="clear-btn">Clear</button>
       <button class="bar-btn primary" id="ris-btn">⬇ Download RIS</button>
+      <button class="bar-btn feedback" id="feedback-btn">📊 Submit Feedback</button>
     </div>`;
   document.body.appendChild(bar);
   document.getElementById('ris-btn').addEventListener('click', downloadRIS);
   document.getElementById('clear-btn').addEventListener('click', clearSelection);
+  document.getElementById('feedback-btn').addEventListener('click', submitFeedback);
 }
 
 function updateDownloadBar() {
   const bar = document.getElementById('download-bar');
+  if (!bar) return;
   const count = selectedPmids.size;
   document.getElementById('selected-count').textContent =
     count === 1 ? '1 paper selected' : `${count} papers selected`;
@@ -108,8 +199,10 @@ function togglePaper(pmid, checked) {
   updateDownloadBar();
 }
 
+// ── RIS Download ───────────────────────────────────────────────────────────────
+
 function downloadRIS() {
-  const papers = allPapers.filter(p => selectedPmids.has(p.pmid));
+  const papers = allPapers.filter(p => selectedPmids.has(p.pmid || p.doi));
   const ris = papers.map(toRIS).join('\n');
   const blob = new Blob([ris], { type: 'application/x-research-info-systems' });
   const url = URL.createObjectURL(blob);
@@ -133,6 +226,52 @@ function toRIS(p) {
   if (p.pmid)     lines.push(`UR  - https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`);
   lines.push('ER  - ');
   return lines.join('\n');
+}
+
+// ── Feedback Submission ────────────────────────────────────────────────────────
+
+async function submitFeedback() {
+  const btn = document.getElementById('feedback-btn');
+  const selected = Array.from(selectedPmids);
+  const shown = allPapers.map(p => p.pmid || p.doi).filter(Boolean);
+
+  btn.disabled = true;
+  btn.textContent = '⏳ Submitting...';
+
+  try {
+    const res = await fetch('/api/feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ selected, shown })
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      btn.textContent = `✅ ${data.papersSubmitted} papers submitted`;
+      setTimeout(() => {
+        btn.textContent = '📊 Submit Feedback';
+        btn.disabled = false;
+      }, 3000);
+    } else if (res.status === 401) {
+      btn.textContent = '🔒 Session expired — reload';
+      setTimeout(() => location.reload(), 2000);
+    } else {
+      const err = await res.json().catch(() => ({}));
+      btn.textContent = '❌ Error — try again';
+      console.error('Feedback error:', err);
+      setTimeout(() => {
+        btn.textContent = '📊 Submit Feedback';
+        btn.disabled = false;
+      }, 3000);
+    }
+  } catch (err) {
+    btn.textContent = '❌ Connection error';
+    console.error(err);
+    setTimeout(() => {
+      btn.textContent = '📊 Submit Feedback';
+      btn.disabled = false;
+    }, 3000);
+  }
 }
 
 // ── Sorting & grouping ────────────────────────────────────────────────────────
@@ -172,7 +311,6 @@ function renderPapers(papers) {
   let html = '';
 
   if (aiScored.length > 0) {
-    // AI-scored section
     if (mainAi.length > 0) {
       html += sectionHeader('AI-Scored', `${mainAi.length} papers ranked by relevance &amp; surprise`);
       html += sortAiScored(mainAi).map(p => paperCard(p)).join('');
@@ -186,7 +324,6 @@ function renderPapers(papers) {
       html += sortKeyword(keywordOnly).map(p => paperCard(p)).join('');
     }
   } else {
-    // No AI scoring — flat list
     html += sortKeyword(papers).map(p => paperCard(p)).join('');
   }
 
@@ -215,6 +352,7 @@ function paperCard(p) {
   const authors = Array.isArray(p.authors) ? p.authors.join(', ') : (p.authors || '');
   const shortAuthors = authors.length > 80 ? authors.slice(0, 80) + '…' : authors;
   const tags = (p.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('');
+  const id = p.pmid || p.doi || '';
 
   const doiLink = p.doi
     ? `<a class="pmid-link" href="https://doi.org/${p.doi}" target="_blank" rel="noopener">DOI ↗</a>`
@@ -243,9 +381,7 @@ function paperCard(p) {
 
   // Body: prefer AI summary, fall back to abstract
   const bodyText = p.aiSummary || p.abstract || '';
-  const body = bodyText
-    ? `<p class="paper-abstract">${esc(bodyText)}</p>`
-    : '';
+  const body = bodyText ? `<p class="paper-abstract">${esc(bodyText)}</p>` : '';
 
   // "Why this?" expandable
   const whySection = p.whyItMatters ? `
@@ -254,13 +390,26 @@ function paperCard(p) {
   <p class="why-text hidden">${esc(p.whyItMatters)}</p>
 </div>` : '';
 
-  return `
-<article class="paper-card${p.isWildcard ? ' wildcard' : ''}" data-pmid="${esc(p.pmid || p.doi || '')}">
-  <div class="card-top">
-    <label class="checkbox-wrap" title="Select for RIS download">
-      <input type="checkbox" class="paper-checkbox" data-pmid="${esc(p.pmid || p.doi || '')}">
+  // Full summary section (from full-text reading)
+  const summarySection = p.fullSummary ? `
+<div class="summary-wrap">
+  <button class="summary-toggle">Read summary ▾</button>
+  <div class="summary-content hidden">
+    ${renderFullSummary(p.fullSummary)}
+  </div>
+</div>` : '';
+
+  // Checkbox: only shown in admin mode (CSS handles visibility)
+  const checkbox = `
+    <label class="checkbox-wrap admin-only" title="Select for RIS download or feedback">
+      <input type="checkbox" class="paper-checkbox" data-pmid="${esc(id)}">
       <span class="checkmark"></span>
-    </label>
+    </label>`;
+
+  return `
+<article class="paper-card${p.isWildcard ? ' wildcard' : ''}${p.fullSummary ? ' has-summary' : ''}" data-pmid="${esc(id)}">
+  <div class="card-top">
+    ${checkbox}
     <h2 class="paper-title">${titleHtml}</h2>
     <span class="relevance-badge relevance-${rel}">${rel}</span>
   </div>
@@ -272,11 +421,36 @@ function paperCard(p) {
   </p>
   ${body}
   ${whySection}
+  ${summarySection}
   <div class="card-footer">
     <div class="tags">${tags}</div>
     ${doiLink}
   </div>
 </article>`;
+}
+
+function renderFullSummary(summary) {
+  // summary is an object: { keyFindings, methods, relevance, limitations, notableData }
+  if (typeof summary === 'string') return `<p>${esc(summary)}</p>`;
+
+  let html = '';
+  if (summary.keyFindings) {
+    html += '<h4>Key Findings</h4><ul>' +
+      summary.keyFindings.map(f => `<li>${esc(f)}</li>`).join('') + '</ul>';
+  }
+  if (summary.methods) {
+    html += `<h4>Methods</h4><p>${esc(summary.methods)}</p>`;
+  }
+  if (summary.relevance) {
+    html += `<h4>Relevance to Your Work</h4><p>${esc(summary.relevance)}</p>`;
+  }
+  if (summary.limitations) {
+    html += `<h4>Limitations</h4><p>${esc(summary.limitations)}</p>`;
+  }
+  if (summary.notableData) {
+    html += `<h4>Notable Data</h4><p>${esc(summary.notableData)}</p>`;
+  }
+  return html;
 }
 
 function esc(str) {
