@@ -42,7 +42,8 @@
       "sonnetReason": "Low-protein diet driving gut microbiota remodeling and beige adipocyte induction is highly relevant to Chris's dietary protein restriction work, and the microbiota mechanism is a genuinely surprising novel angle he may not have anticipated.",
       "scoringMethod": "full",
       "aiSummary": "Low-protein diets reshape the gut microbiota in ways that promote browning/beiging of white adipose tissue. The study identifies a mechanistic link between dietary protein availability, microbial community function, and adipose tissue remodeling.",
-      "whyItMatters": "Why this matters to you: Directly relevant — low-protein diets are a core tool in your work, and this paper identifies a microbiota-WAT beiging axis downstream of protein restriction that could interact with or be independent of FGF21-mediated adipose remodeling you study."
+      "whyItMatters": "Why this matters to you: Directly relevant — low-protein diets are a core tool in your work, and this paper identifies a microbiota-WAT beiging axis downstream of protein restriction that could interact with or be independent of FGF21-mediated adipose remodeling you study.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1016_j-ejphar-2026-178643",
@@ -85,7 +86,8 @@
       "sonnetReason": "Central FGF19 (closely related to FGF21) acting in hypothalamus to reduce inflammation and improve leptin signaling is highly relevant to Chris's FGF family and CNS energy balance interests.",
       "scoringMethod": "full",
       "aiSummary": "Central administration of FGF19 reduced hypothalamic inflammation and restored leptin sensitivity in obese mice, leading to decreased food intake and improved energy balance. The findings suggest FGF19 acts in the brain to counteract obesity-associated neuroinflammation.",
-      "whyItMatters": "Why this matters to you: Directly relevant — FGF19 is the human ortholog of FGF15 and shares receptor biology with FGF21; this paper's demonstration of central FGF19 action on hypothalamic inflammation and leptin signaling is a close parallel to your CNS-FGF21 work and raises questions about shared vs. distinct central mechanisms."
+      "whyItMatters": "Why this matters to you: Directly relevant — FGF19 is the human ortholog of FGF15 and shares receptor biology with FGF21; this paper's demonstration of central FGF19 action on hypothalamic inflammation and leptin signaling is a close parallel to your CNS-FGF21 work and raises questions about shared vs. distinct central mechanisms.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1016_j-molmet-2026-102347",
@@ -299,7 +301,23 @@
       "sonnetReason": "Central mechanisms of GCG/GLP-1 dual agonist action through circumventricular organs and appetite-regulating brain regions is relevant to Chris's incretin/CNS interests.",
       "scoringMethod": "full",
       "aiSummary": "The dual GCG/GLP-1R agonist survodutide reduces body weight primarily by acting on circumventricular organs accessible to circulating peptides, activating downstream appetite-regulatory brain regions. Both receptor types contribute to its central anorectic and energy expenditure effects.",
-      "whyItMatters": "Why this matters to you: Indirectly relevant — survodutide's CNS mechanism through circumventricular organs is conceptually parallel to how circulating FGF21 accesses the brain, and the dual-receptor energy expenditure component may be worth comparing to FGF21's thermogenic CNS actions."
+      "whyItMatters": "Why this matters to you: Indirectly relevant — survodutide's CNS mechanism through circumventricular organs is conceptually parallel to how circulating FGF21 accesses the brain, and the dual-receptor energy expenditure component may be worth comparing to FGF21's thermogenic CNS actions.",
+      "fullSummary": {
+        "keyFindings": [
+          "Single nucleus RNA-seq revealed GLP1R expression in 0.4-1.5% of human and mouse ARH/AP nuclei, while GCGR was virtually undetectable (<0.07%)",
+          "Survodutide-Cy7 (fluorescent-labeled) accumulated specifically in circumventricular organs (CVOs) including ARH, AP, median eminence, and subfornical organ",
+          "Survodutide increased c-Fos activation in brain regions controlling appetite (CEA, PB, NTS, AP, DMX) 4h post-administration",
+          "Long-acting GCGR agonist (LA-GCG) showed no acute food intake reduction and minimal CNS activation compared to survodutide, despite 34% body weight reduction in chronic DIO studies",
+          "Survodutide's CNS effects appear mediated via GLP-1R rather than GCGR, as GCGR expression is essentially absent in peptide-accessible brain regions"
+        ],
+        "methods": "snRNA-seq on micropunched human and mouse ARH/AP tissue (n=6-8 per group), spatial transcriptomics via Xenium, fluorescent peptide distribution using light-sheet microscopy of cleared brains, c-Fos immunostaining after acute dosing (4h), chronic dosing studies in DIO mice up to 28 days",
+        "relevance": "Highly relevant to Chris's CNS metabolism research. Demonstrates that peripherally administered peptide hormones can access specific CNS regions (CVOs) to regulate food intake. The absent GCGR expression in brain challenges assumptions about CNS glucagon signaling. The restricted CVO penetration pattern may inform how dietary protein restriction signals could reach metabolically relevant brain regions.",
+        "limitations": "Human functional validation limited to expression data only (no functional studies), survodutide-Cy7 validation not performed in receptor knockout models, cannot exclude peripheral GCGR contributions to long-term metabolic effects",
+        "notableData": "Survodutide-Cy7 maintained subnanomolar GLP-1R potency (0.069 nM) and showed 8-fold selectivity for GLP-1R over GCGR. Competition studies showed 50% reduction in ARH/AP fluorescence with survodutide pretreatment, confirming receptor-specific binding."
+      },
+      "fullTextSource": "pmc",
+      "fullTextStatus": "summarized",
+      "summarizedDate": "2026-03-07"
     },
     {
       "id": "10-1038_s42255-026-01472-5",
