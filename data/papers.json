@@ -130,7 +130,8 @@
       "sonnetReason": "Directly relevant to CNS GLP-1 mechanisms and NTS/brainstem circuits for appetite suppression, core areas of Chris's interest in central incretin signaling.",
       "scoringMethod": "full",
       "aiSummary": "Chronic chemogenetic activation of brainstem NTS preproglucagon neurons suppressed appetite and produced sustained weight loss in obese mice without apparent tolerance or disrupted function. This establishes PPG neurons as a viable long-term target for appetite suppression distinct from systemic GLP-1R agonist access.",
-      "whyItMatters": "Why this matters to you: Indirectly relevant — this is a brainstem satiety circuit paper with limited direct FGF21/protein restriction connection, but the chronic CNS activation strategy and obesity-resilience of the circuit may inform how you think about sustained central FGF21 signaling effects."
+      "whyItMatters": "Why this matters to you: Indirectly relevant — this is a brainstem satiety circuit paper with limited direct FGF21/protein restriction connection, but the chronic CNS activation strategy and obesity-resilience of the circuit may inform how you think about sustained central FGF21 signaling effects.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1016_j-celrep-2025-116904",
@@ -173,7 +174,8 @@
       "sonnetReason": "A comprehensive transcriptomic atlas of PVH cell types and projection neurons is highly useful for Chris's work on hypothalamic circuits controlling appetite and energy balance.",
       "scoringMethod": "full",
       "aiSummary": "Single-cell/nucleus RNA sequencing and spatial transcriptomics were used to build a comprehensive atlas of PVH neuron subtypes, including previously undefined projection-specific populations. The study provides molecular markers for centrally projecting PVH neurons that control appetite, autonomic outflow, and pituitary function.",
-      "whyItMatters": "Why this matters to you: Relevant as a resource — the PVH is a key node downstream of FGF21 CNS action, and this atlas could help you identify specific cell types mediating FGF21's effects on energy expenditure and macronutrient preference."
+      "whyItMatters": "Why this matters to you: Relevant as a resource — the PVH is a key node downstream of FGF21 CNS action, and this atlas could help you identify specific cell types mediating FGF21's effects on energy expenditure and macronutrient preference.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1016_j-mce-2026-112773",
@@ -258,7 +260,8 @@
       "sonnetReason": "Mechanistic detail on tanycyte extracellular vesicles delivering mTORC components to hypothalamic neurons is a genuinely novel hypothalamic signaling mechanism with surprise value.",
       "scoringMethod": "full",
       "aiSummary": "Extracellular vesicles released by hypothalamic α-tanycytes carry mTORC components and use an insulin precursor as a targeting signal to deliver cargo to specific hypothalamic neurons, regulating diurnal feeding patterns and metabolic homeostasis. This reveals a non-synaptic, vesicle-based communication mechanism within the hypothalamus.",
-      "whyItMatters": "Why this matters to you: Indirectly relevant — tanycytes are implicated in hypothalamic nutrient sensing and FGF21 receptor expression; this novel vesicle-based signaling mechanism could represent an underappreciated layer of CNS metabolic regulation operating in the same circuits you study."
+      "whyItMatters": "Why this matters to you: Indirectly relevant — tanycytes are implicated in hypothalamic nutrient sensing and FGF21 receptor expression; this novel vesicle-based signaling mechanism could represent an underappreciated layer of CNS metabolic regulation operating in the same circuits you study.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1016_j-molmet-2026-102326",
@@ -623,7 +626,23 @@
       "sonnetReason": "Amino acid metabolism and glucagon signaling in hepatic steatosis touches on AA sensing relevant to protein restriction work, but the hepatic glucagon resistance focus is somewhat peripheral.",
       "scoringMethod": "full",
       "aiSummary": "Contrary to the prevailing hypothesis, this human study found that hepatic steatosis does not impair glucagon's ability to stimulate amino acid catabolism, suggesting that hyperglucagonemia in obese/steatotic individuals is not driven by hepatic glucagon resistance to amino acid metabolism. Instead, elevated amino acids in these patients may reflect increased amino acid flux from other sources rather than defective hepatic clearance.",
-      "whyItMatters": "Why this matters to you: Relevant to your work—glucagon and FGF21 are co-regulated in the context of protein/amino acid metabolism and hepatic nutrient sensing, and this finding challenges assumptions about how amino acid signals drive hormonal responses, which could reframe how FGF21 fits into this axis."
+      "whyItMatters": "Why this matters to you: Relevant to your work—glucagon and FGF21 are co-regulated in the context of protein/amino acid metabolism and hepatic nutrient sensing, and this finding challenges assumptions about how amino acid signals drive hormonal responses, which could reframe how FGF21 fits into this axis.",
+      "fullSummary": {
+        "keyFindings": [
+          "Hepatic steatosis (PDFF >5%) did not impair glucagon's action on hepatic amino acid metabolism in humans",
+          "Leucine oxidation and splanchnic balance of most amino acids were unaffected by presence of hepatic steatosis during glucagon infusion (1.5-3.0 ng/kg/min)",
+          "Peripheral glucose disposal was further impaired in obese patients with hepatic steatosis vs. those without (GIR: 3.1 ± 0.5 vs 7.5 ± 0.8 mg/kg/min during high glucagon)",
+          "Some amino acid metabolites (β-aminoisobutyric acid, γ-amino-N-butyric acid) showed altered splanchnic balance correlating with hepatic fat content",
+          "Study included 20 participants: 7 lean, 6 obese PDFF<5%, 7 obese PDFF>5%, with hyperglycemic clamp at ~9.5 mmol/L glucose"
+        ],
+        "methods": "Invasive catheter study with femoral artery, femoral vein, and hepatic vein catheters in 20 participants. Hyperglycemic clamp with insulin (0.8 mU/kg/min), amino acid infusion, and two-stage glucagon infusion. Used tracer methodology with [3-3H]glucose and L-[1-13C,15N]-leucine to measure hepatic leucine metabolism and splanchnic amino acid balance.",
+        "relevance": "This study directly challenges the hypothesis that hepatic glucagon resistance contributes to elevated amino acids in metabolic disease. The preserved glucagon action on amino acid metabolism despite hepatic steatosis suggests alternative mechanisms must explain hyperaminoacidemia in prediabetes/diabetes. Relevant to Chris's work on CNS regulation of metabolism as it clarifies hepatic vs. potential central mechanisms of amino acid dysregulation.",
+        "limitations": "Small sample size (n=20) with unbalanced sex distribution. Some residual insulin secretion despite somatostatin. Peripheral rather than portal nutrient delivery may not fully replicate physiological conditions.",
+        "notableData": "No difference in leucine reamination rates across groups (17±2 vs 26±5 vs 20±6 mmol/min during fasting). Glucagon concentrations achieved: 24±2 pmol/L (intermediate) and 46±5 pmol/L (high dose), representing postprandial levels."
+      },
+      "fullTextSource": "unpaywall",
+      "fullTextStatus": "summarized",
+      "summarizedDate": "2026-03-07"
     },
     {
       "id": "10-1016_j-cmet-2026-02-005",
@@ -1621,7 +1640,8 @@
         "metabolic"
       ],
       "addedDate": "2026-03-04",
-      "source": "PubMed: FGF21"
+      "source": "PubMed: FGF21",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1002_bem-70048",
