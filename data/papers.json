@@ -217,7 +217,8 @@
       "sonnetReason": "Novel orexigenic microprotein in arcuate AgRP/NPY neurons is directly relevant to hypothalamic feeding circuits Chris studies, and the novel peptide angle adds some surprise.",
       "scoringMethod": "full",
       "aiSummary": "FAM237B is a conserved orexigenic microprotein expressed in a subset of AgRP neurons that is upregulated by fasting and suppressed by insulin and neuroinflammation. It functions as a bona fide metabolically regulated neuropeptide rather than a non-coding RNA, adding complexity to AgRP neuron signaling.",
-      "whyItMatters": "Why this matters to you: Indirectly relevant — AgRP neurons are key sensors of protein/amino acid status and are regulated by FGF21 signaling; FAM237B's regulation by fasting and metabolic state in this circuit could intersect with protein-restriction-driven neuroendocrine responses you study."
+      "whyItMatters": "Why this matters to you: Indirectly relevant — AgRP neurons are key sensors of protein/amino acid status and are regulated by FGF21 signaling; FAM237B's regulation by fasting and metabolic state in this circuit could intersect with protein-restriction-driven neuroendocrine responses you study.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1038_s42255-026-01474-3",
@@ -442,7 +443,8 @@
       "sonnetReason": "Hypothalamic leptin receptor circuits linking thermoregulation and feeding are relevant to Chris's energy expenditure and hypothalamic neuroscience interests but not a primary focus.",
       "scoringMethod": "full",
       "aiSummary": "Two distinct intra-hypothalamic pathways from leptin receptor-expressing neurons were found to separately control feeding suppression and reduced energy expenditure in response to warm ambient temperatures. The study dissociates the thermoregulatory and caloric components of heat-induced hypophagia.",
-      "whyItMatters": "Why this matters to you: Indirectly relevant — FGF21 influences both thermogenesis and food intake via hypothalamic circuits, and understanding how leptin receptor neurons coordinate temperature and feeding could inform interpretation of FGF21's overlapping effects on these same outputs."
+      "whyItMatters": "Why this matters to you: Indirectly relevant — FGF21 influences both thermogenesis and food intake via hypothalamic circuits, and understanding how leptin receptor neurons coordinate temperature and feeding could inform interpretation of FGF21's overlapping effects on these same outputs.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1016_j-molmet-2026-102327",
@@ -540,7 +542,8 @@
       "sonnetReason": "FGF23 as an endocrine hormone beyond bone disease is relevant to Chris's interest in FGF family members (FGF19, FGF21, FGF23) in metabolic contexts, though the focus remains largely on mineral metabolism.",
       "scoringMethod": "full",
       "aiSummary": "This review positions FGF23 as a broader endocrine hormone beyond its phosphaturic role in bone, linking excess circulating FGF23 to cardiovascular, renal, and metabolic consequences that precede overt mineral disorders. It highlights FGF23 as an early biomarker and potential causal factor in systemic disease beyond skeletal pathology.",
-      "whyItMatters": "Why this matters to you: This is only tangentially relevant to your work—while FGF23 is a family member of FGF21 and both use Klotho co-receptors, FGF23's biology is largely phosphate/kidney-focused and distant from FGF21's role in protein restriction and CNS metabolism regulation."
+      "whyItMatters": "Why this matters to you: This is only tangentially relevant to your work—while FGF23 is a family member of FGF21 and both use Klotho co-receptors, FGF23's biology is largely phosphate/kidney-focused and distant from FGF21's role in protein restriction and CNS metabolism regulation.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1152_ajpcell-00765-2025",
@@ -583,7 +586,8 @@
       "sonnetReason": "Hypothalamic amino acid sensing to regulate feeding connects to Chris's protein restriction work, but the fish model and CMA focus make this somewhat peripheral.",
       "scoringMethod": "full",
       "aiSummary": "This study shows that central activation of chaperone-mediated autophagy (CMA) in rainbow trout suppresses food intake by fine-tuning hypothalamic amino acid pools, suggesting CMA acts as a nutrient-sensing mechanism in the brain. This is the first demonstration of CMA regulating feeding behavior through hypothalamic amino acid signaling in a non-mammalian vertebrate.",
-      "whyItMatters": "Why this matters to you: Directly relevant—this paper links hypothalamic amino acid sensing to appetite suppression, which intersects closely with your interest in how the CNS detects and responds to dietary protein restriction, potentially involving FGF21-dependent and independent pathways."
+      "whyItMatters": "Why this matters to you: Directly relevant—this paper links hypothalamic amino acid sensing to appetite suppression, which intersects closely with your interest in how the CNS detects and responds to dietary protein restriction, potentially involving FGF21-dependent and independent pathways.",
+      "fullTextStatus": "unavailable"
     },
     {
       "id": "10-1172_JCI200913",
@@ -777,7 +781,23 @@
       "sonnetReason": "Incretin-based therapies overview in Nature Metabolism is relevant to his GLP-1/GIP interests but is a broad perspective piece rather than mechanistic research.",
       "scoringMethod": "full",
       "aiSummary": "This perspective piece reviews the clinical successes of incretin-based therapies (GLP-1, GIP, glucagon receptor agonists) for obesity and metabolic disease, while also noting emerging safety concerns and gaps in understanding long-term effects. It contextualizes the incretin revolution within broader obesity pharmacology on World Obesity Day 2026.",
-      "whyItMatters": "Why this matters to you: Marginally relevant as broad context—FGF21 analogs are emerging in the same therapeutic space as incretins for obesity and metabolic disease, so understanding the clinical landscape and unmet needs of incretin therapy could inform how FGF21-based approaches might be positioned."
+      "whyItMatters": "Why this matters to you: Marginally relevant as broad context—FGF21 analogs are emerging in the same therapeutic space as incretins for obesity and metabolic disease, so understanding the clinical landscape and unmet needs of incretin therapy could inform how FGF21-based approaches might be positioned.",
+      "fullSummary": {
+        "keyFindings": [
+          "GLP1R agonists like semaglutide and dual GIPR/GLP1R agonists like tirzepatide achieve 15-25% body weight reductions in clinical trials",
+          "These drugs show benefits beyond weight loss including improvements in glycemia, hepatic steatosis, cardiovascular outcomes, and renal disease",
+          "Weight regain occurs upon treatment cessation, with many patients losing cardiometabolic benefits after stopping treatment",
+          "A subset of patients do not respond or respond insufficiently to incretin-based therapies",
+          "Triple agonist approaches (GLP1R/GIPR/glucagon receptor) and combinations with amylin receptor agonists are being investigated"
+        ],
+        "methods": "Editorial review discussing clinical trial data from major studies including STEP, SURMOUNT, SURPASS, SUSTAIN, and other trials evaluating incretin-based therapies for obesity and metabolic disorders",
+        "relevance": "Highly relevant to Chris's FGF21 and metabolic aging research as incretin hormones like GLP-1 are key metabolic regulators that may interact with FGF21 signaling pathways. The discussion of multi-agonist approaches and tissue crosstalk in obesity treatment could inform understanding of how FGF21 fits into broader metabolic hormone networks and CNS regulation of metabolism.",
+        "limitations": "This is an editorial rather than original research, so it provides overview and perspective rather than new experimental data. Limited discussion of underlying mechanistic pathways that would inform FGF21 interactions.",
+        "notableData": "Semaglutide patent expires in 2026 in Canada, India, China and Brazil, potentially increasing access. EVOKE trials testing semaglutide for Alzheimer's disease showed no clear clinical benefit in preliminary reports."
+      },
+      "fullTextSource": "unpaywall",
+      "fullTextStatus": "summarized",
+      "summarizedDate": "2026-03-07"
     },
     {
       "id": "10-1111_obr-70108",
