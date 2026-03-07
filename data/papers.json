@@ -482,7 +482,23 @@
       "sonnetReason": "Hepatic GLP-1R agonism and triagonist mechanisms touch on Chris's GLP-1 and energy expenditure interests but the cardiovascular pharmacology angle is not his primary domain.",
       "scoringMethod": "full",
       "aiSummary": "This study explores whether adding hepatic GLP-1R agonism to existing GLP-1 analogues can boost weight loss without the cardiovascular side effects seen with glucagon receptor agonism in triagonists. The approach appears to enhance energy expenditure and food intake reduction through liver-specific GLP-1R signaling, potentially offering a safer alternative to GcgR-based strategies.",
-      "whyItMatters": "Why this matters to you: Indirectly relevant—FGF21 is a key hepatokine induced downstream of GLP-1/glucagon signaling, and understanding which receptor arms drive weight loss versus cardiovascular risk could inform how FGF21 fits mechanistically into multi-agonist therapy frameworks."
+      "whyItMatters": "Why this matters to you: Indirectly relevant—FGF21 is a key hepatokine induced downstream of GLP-1/glucagon signaling, and understanding which receptor arms drive weight loss versus cardiovascular risk could inform how FGF21 fits mechanistically into multi-agonist therapy frameworks.",
+      "fullSummary": {
+        "keyFindings": [
+          "Ectopic hepatic GLP-1R expression via AAV8 enhances weight loss efficacy of GLP-1 agonists by increasing energy expenditure without affecting food intake at lower doses",
+          "Semaglutide + hepatic GLP-1R drove 6.6-fold increased drug clearance vs controls, requiring dose escalation from 30 to 100 nmol/kg to overcome receptor-mediated clearance",
+          "NNC5840 (low-internalization GLP-1R agonist) showed only 1.9-fold clearance increase and maintained superior weight loss vs semaglutide + hepatic GLP-1R combination",
+          "Dual GLP-1R/GIPR agonist + hepatic GLP-1R increased energy expenditure and weight loss without additional heart rate elevation compared to dual agonist alone",
+          "Hepatic GLP-1R agonism functionally mimicked glucagon receptor effects (glucose excursion, energy expenditure) without chronotropic cardiac side effects"
+        ],
+        "methods": "Used AAV8-delivered mouse GLP-1R with liver-specific promoter in diet-induced obese wild-type and GLP-1R knockout mice (n=3-8/group). Assessed weight loss, food intake, energy expenditure via indirect calorimetry, cardiovascular parameters via radiotelemetry, and pharmacokinetics. Also tested lipid nanoparticle mRNA delivery system.",
+        "relevance": "Directly relevant to Chris's FGF21 research as it demonstrates a novel approach to enhance energy expenditure for metabolic benefits without traditional side effects. The hepatic receptor expression strategy and metabolic aging implications of enhanced energy expenditure align with CNS regulation of metabolism studies. However, this focuses on peripheral hepatic mechanisms rather than central nervous system control.",
+        "limitations": "Short study durations (7-45 days), small sample sizes (n=3-8), unclear translational feasibility of AAV delivery to humans, and some glucose control deterioration with ectopic receptor expression.",
+        "notableData": "Hepatic GLP-1R expression correlated with weight loss (R²=0.85). NNC5840 achieved superior efficacy with 3.5-fold less pharmacokinetic liability than semaglutide. Energy expenditure increased acutely without proportional heart rate changes."
+      },
+      "fullTextSource": "pmc",
+      "fullTextStatus": "summarized",
+      "summarizedDate": "2026-03-07"
     },
     {
       "id": "10-1016_j-jbspin-2025-105988",
@@ -689,7 +705,23 @@
       "sonnetReason": "Directly involves FGF23, Klotho, and GALNT3 in phosphate regulation — FGF/Klotho biology is relevant, though renal/bone context is distant from Chris's CNS/feeding focus.",
       "scoringMethod": "full",
       "aiSummary": "This case report describes a patient with a rare homozygous 5,600 bp deletion in GALNT3, which prevents proper glycosylation and secretion of intact FGF23, resulting in hyperphosphatemic tumoral calcinosis with severe periarticular calcifications. The case illustrates how loss of FGF23 bioactivity—through impaired post-translational processing rather than gene absence—leads to phosphate retention and ectopic calcification.",
-      "whyItMatters": "Why this matters to you: Not directly relevant to your work—this is a rare monogenic disorder of FGF23 processing affecting phosphate homeostasis, with no clear connection to FGF21, protein restriction, or CNS metabolic regulation."
+      "whyItMatters": "Why this matters to you: Not directly relevant to your work—this is a rare monogenic disorder of FGF23 processing affecting phosphate homeostasis, with no clear connection to FGF21, protein restriction, or CNS metabolic regulation.",
+      "fullSummary": {
+        "keyFindings": [
+          "First reported case of HTC caused by large homozygous 5,600 bp deletion in GALNT3 gene encompassing exons 3-4 and part of exon 5",
+          "50-year-old woman with hyperphosphatemia (1.85 mmol/L, normal 0.87-1.45), FGF-23 just above detection limit at 1.24 pg/mL",
+          "Patient had 93% tubular phosphate reabsorption (inappropriately high) with normal PTH, calcium, and vitamin D levels",
+          "Clinical manifestations included skin calcifications in lower legs, joint apatite crystals, dental problems, and arterial calcifications",
+          "Treatment with phosphate-reduced diet and sevelamer only partially controlled phosphate levels (1.6-2.0 mmol/L) over 3-year follow-up"
+        ],
+        "methods": "Case report of single patient with exome sequencing analysis of FGF23, KL, and GALNT3 genes. Plasma intact FGF-23 measured by ELISA. Clinical assessment included imaging (X-ray, ultrasound), biochemical analysis, and 3-year follow-up monitoring.",
+        "relevance": "Highly relevant to Chris's FGF21 research as it involves the related hormone FGF-23 and its regulation of phosphate metabolism. The GALNT3 enzyme that was deleted normally O-glycosylates FGF-23 to prolong its half-life - this mechanism may be similar for FGF21 glycosylation and stability, providing insights into post-translational regulation of FGF family hormones.",
+        "limitations": "Single case report with no C-terminal FGF-23 measurement. Limited treatment response data and no functional studies of the deletion's impact on enzyme activity.",
+        "notableData": "This represents the largest GALNT3 deletion reported in HTC (5,600 bp vs typical single nucleotide variants). FGF-23 level of 1.24 pg/mL was barely detectable, demonstrating severe functional impact."
+      },
+      "fullTextSource": "pmc",
+      "fullTextStatus": "summarized",
+      "summarizedDate": "2026-03-07"
     },
     {
       "id": "10-1038_s42255-026-01490-3",
@@ -810,7 +842,23 @@
       "sonnetReason": "Dual GLP-1/GLP-2 agonist for obesity is relevant to Chris's GLP-1 interests but is a clinical trial paper rather than mechanistic work on central/neural pathways.",
       "scoringMethod": "full",
       "aiSummary": "In a 12-week phase IIa trial, dapiglutide—a dual GLP-1/GLP-2 receptor agonist—produced meaningful weight loss in adults with obesity while also improving gut barrier function and reducing inflammation, consistent with its dual mechanism. This proof-of-concept study supports GLP-2R agonism as a complementary target to GLP-1R for obesity treatment.",
-      "whyItMatters": "Why this matters to you: Only indirectly relevant—the gut-barrier and anti-inflammatory angles of GLP-2R agonism are mechanistically distant from FGF21 and CNS protein sensing, though the broader theme of gut-derived signals influencing metabolic outcomes provides peripheral context."
+      "whyItMatters": "Why this matters to you: Only indirectly relevant—the gut-barrier and anti-inflammatory angles of GLP-2R agonism are mechanistically distant from FGF21 and CNS protein sensing, though the broader theme of gut-derived signals influencing metabolic outcomes provides peripheral context.",
+      "fullSummary": {
+        "keyFindings": [
+          "Dapiglutide 6mg did not significantly reduce bodyweight vs placebo (-2.1%, 95% CI -4.3 to 0.2; p=0.076) over 12 weeks",
+          "Both dapiglutide doses reduced HbA1c significantly: 4mg by -1.9 mmol/mol (adj. p=0.006), 6mg by -2.4 mmol/mol (adj. p=0.006) vs placebo (-0.1 mmol/mol)",
+          "6mg dapiglutide reduced waist circumference by -5.3 cm vs +0.4 cm for placebo (not statistically significant)",
+          "47% of 6mg dapiglutide patients achieved ≥5% weight loss vs 22% on placebo; mean weight loss was 4.3% vs 2.2%",
+          "No participants discontinued due to drug-related adverse events despite higher GI side effects (nausea 56% vs 38% placebo)"
+        ],
+        "methods": "Randomized, double-blind, placebo-controlled trial in 54 adults with obesity (BMI ≥30 kg/m²) randomized 1:1:1 to dapiglutide 4mg, 6mg, or placebo for 12 weeks. Primary endpoint was percentage change in bodyweight. Participants maintained habitual diet/activity without lifestyle intervention to isolate pharmacological effects.",
+        "relevance": "Limited direct relevance to Chris's research interests. Dapiglutide is a dual GLP-1/GLP-2 receptor agonist that could theoretically relate to his CNS metabolism work if GLP-2 has central effects, but the paper focuses on peripheral metabolic outcomes. The compound's failure at tested doses provides negative data about alternative incretin approaches to obesity treatment, which may be tangentially relevant to understanding metabolic regulation mechanisms.",
+        "limitations": "Small sample size (n=18 per group), short 12-week duration, doses may have been subtherapeutic based on tolerability profile, lack of lifestyle intervention may have reduced efficacy potential, and higher proportion of males in 6mg group could have attenuated response",
+        "notableData": "Previous phase I trial showed 4.3% weight loss with 6mg in lean men over 4 weeks. Recent phase I data (mentioned but not detailed) showed 8.3% placebo-adjusted weight loss with 13mg dose and 11.6% weight loss with up to 26mg over 28 weeks."
+      },
+      "fullTextSource": "pmc",
+      "fullTextStatus": "summarized",
+      "summarizedDate": "2026-03-07"
     },
     {
       "id": "10-14670_HH-18-967",
